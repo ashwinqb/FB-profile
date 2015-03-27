@@ -2,6 +2,45 @@
 .background-color{
 	background-color: #909090;
 }
+
+.row .col-lg-10 {
+     width: 72.7%;
+     min-width:0px;
+  }
+.cover-photo{
+	
+	background-image: url("../images/cpic.jpg");
+	background-repeat: no-repeat;
+     vertical-align: middle;
+    background-size: auto auto;
+	width:850px;
+	height:315px;
+	position:relative;
+   
+}
+.cover-outer-div{
+	overflow:hidden;
+	margin-top:10px;
+	cursor:pointer;
+	padding: 0px;
+	border: 1px solid #909090;
+}
+
+#cover-pic-button-div{
+	position:absolute;
+	bottom:15px;
+	right:15px;
+	display:inline-block;
+	
+}
+#cover-pic-button-div  .btn{
+	
+	line-height: 1.2;
+	font-weight: bold;
+	font-size:11px;
+	border-radius:0px;
+	color: #4E5665;
+}
 .div-style-template{
 	border-radius:4px;
 	border-color: 1px solid #141823;
@@ -21,5 +60,4 @@
 	font-size:12px;
 	word-wrap:break-word;
 	margin:5px;
-	 
 }
