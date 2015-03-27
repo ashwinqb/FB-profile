@@ -2,3 +2,35 @@
 .background-color{
 	background-color: #909090;
 }
+
+.profile-menu{
+	background-color: #F6F7F8;
+	width: inherit;
+	height: auto;
+	padding-left: 201px;
+	clear:both;
+	text-align: left;
+}
+.profile-menu a{
+	border-top-width:0px;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#E9EAED;
+	border-bottom-width: 0px;
+	border-left-width: 0px; 
+	cursor: pointer;
+	float: left;
+	font-weight:700px;
+	font-size: 14px;
+	height:43px;
+	line-height:42.7px;
+	padding-top:0px;
+	padding-right:17px;
+	padding-left:17px;
+	padding-bottom:0px;
+	position: relative;
+	text-align: left;
+	vertical-align: middle;
+	
+		
+}
