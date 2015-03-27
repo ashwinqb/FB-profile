@@ -2,6 +2,17 @@
 .background-color{
 	background-color: #909090;
 }
+.div-style-template{
+	border-radius:4px;
+	border-color: 1px solid #141823;
+	color: #9197A3;
+	font-size:12px;
+	word-wrap:break-word;
+	margin:5px;
+	 
+
+}
+
 
 .profile-menu{
 	background-color: #F6F7F8;
@@ -11,6 +22,7 @@
 	clear:both;
 	text-align: left;
 }
+
 .profile-menu a{
 	border-top-width:0px;
 	border-right-width:1px;
@@ -32,5 +44,5 @@
 	text-align: left;
 	vertical-align: middle;
 	
-		
-}
+}		
+
