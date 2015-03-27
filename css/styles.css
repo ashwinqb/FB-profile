@@ -11,3 +11,15 @@
 	margin:5px;
 	 
 }
+.timeline-capsule{
+	background-color: #909090;
+}
+.timeline-div{
+	border-radius:4px;
+	border-color: 1px solid #141823;
+	color: #9197A3;
+	font-size:12px;
+	word-wrap:break-word;
+	margin:5px;
+	 
+}
