@@ -107,14 +107,22 @@
 }
 .work{
 	background-image:url("../images/About me/work.jpg");
-	background-repeat: none;
-	text-align:left;	
+	text-align:right;	
 }
 .about-me{
 	list-style-type:none;
+}
+.about-me div{
 	
-	
+	background-repeat: no-repeat;
+	background-position:left top;
+}
+.about-me icon{
+	float:right;
+}
+.about-me:hover{
 	
 }
-
-.about-me a:hover
+.about-me:visited{
+	
+}
