@@ -1,8 +1,16 @@
 
+.blue-font{
+	color:#3b5998;
+	
+}
+.black-font{
+	color: black;
+	
+}
 .background-color{
 	background-color: #909090;
 }
-<<<<<<< HEAD
+
 .bgcolor{
 	background-color:#3b5998;
 }
@@ -38,6 +46,27 @@
    font-size:20px;
    
   }
+ .icon-style{
+ color: #273d6d;
+ 
+ }
+ .icon-style:HOVER{
+ color: #243251;
+ }
+ .icon-style:ACTIVE{
+ color: white;
+ }
+  
+  .mouse-pointer{
+  cursor:pointer;
+  }
+.navbar button:HOVER{
+  background-color:#2f436d;
+  color: white;
+  }
+#icon-active:AFTER {
+    background-color: white;
+}
 .messagemenu{
 	position: absolute;
 	width: 430px;
@@ -61,6 +90,11 @@
 	position: relative;
 	margin-right: 5px;
 }
+.text-center{
+	position: relative;
+	margin-left: 195px;
+}
+
 .blue-font{
 	color:#3b5998;
 	font-size:13px
@@ -74,7 +108,7 @@
 }
 .text-in-center{
 	text-align: center;
-=======
+
 
 .row .col-lg-10 {
      width: 72.7%;
@@ -114,6 +148,19 @@
 	border-radius:0px;
 	color: #4E5665;
 }
+
+.image-spec{
+width: 80px;
+float: left;
+padding-left: 10px;
+padding-right: 10px;	
+}
+.img-spc-right{
+width=80px;
+float: left;
+padding-left: 10px;
+padding-right: 10px;	
+}
 .div-style-template{
 	border-radius:4px;
 	border-color: 1px solid #141823;
@@ -133,5 +180,7 @@
 	font-size:12px;
 	word-wrap:break-word;
 	margin:5px;
->>>>>>> dev
+
 }
+
+
