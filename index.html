@@ -18,8 +18,7 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	
-	
+
 	
 	
 <title>Welcome to Facebook</title>
@@ -51,13 +50,21 @@
 	<!-- Cover Photo Varshah -->
 			<div class="cover-outer-div ">
 				<div class="cover-photo">
+					<div class="camera-icon-div">
+						<a id="camera-icon"></a>
+						<p class="camera-icon-hover-description">Update cover photo</p>
+					</div>
 					<div id=cover-pic-button-div>
 						<a class="btn btn-default btn-sm" href="#" role="button">Update Info</a>
 						<div class="btn-group" role="group" aria-label="...">
-							  <button type="button" class="btn btn-default btn-sm">View Activity Log</button>
-							  <button type="button" class="btn btn-default btn-sm">...</button>
-						
-							</div>
+							  <a type="button" class="btn btn-default btn-sm" title="See your activity on Facebook">View Activity Log</a>
+							  <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">...</button>
+								 <ul class="dropdown-menu">
+									<li role="presentation" >View As</li>
+									<li role="presentation" >Timeline Setting</li>
+									<li role="presentation" >Add a badge to your site</li>
+								</ul>
+						</div>
 					</div>
 				</div>
 			</div>
