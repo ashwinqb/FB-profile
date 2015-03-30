@@ -1,0 +1,535 @@
+
+.blue-font{
+	color:#3b5998;
+	
+}
+.black-font{
+	color: black;
+	
+}
+.gray-font{
+	color: #999;
+}
+.small-font1{
+	font-size:13px;
+	
+}
+.small-font2{
+	font-size:9px;
+	
+}
+.div-height{
+	height: 70px;
+}
+.background-color{
+	background-color: #adb9d3;
+}
+
+
+.bgcolor{
+	background-color:#3b5998;
+}
+.mTop5{
+	margin-top:5px;
+} 
+.mBottom5{
+	margin-bottom:5px;
+}
+.mLeft20{
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   margin-left:20px;
+   font-size:13px}
+   .mLeft220{
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   margin-left:220px;
+   font-size:13px}
+.mLeft50{
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   margin-left:50px;
+   font-size:13px}
+.mRight20{
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   margin-right:20px;
+   font-size:20px;}
+.mTop10{
+	margin-top:10px
+}
+.whitefont{
+	color: white;
+}
+ .iconStyle{
+  position:relative;
+  display:inline-block;
+   vertical-align:middle;
+   margin-left:10px;
+   font-size:20px;
+   
+  }
+ .icon-style{
+ color: #273d6d;
+ 
+ }
+ .icon-style:HOVER{
+ color: #243251;
+ }
+ .icon-style:ACTIVE{
+ color: white;
+ }
+  
+  .mouse-pointer{
+  cursor:pointer;
+  }
+.navbar button:HOVER{
+  background-color:#2f436d;
+  color: white;
+  }
+#icon-active:AFTER {
+    background-color: white;
+}
+.messagemenu{
+	position: absolute;
+	width: 430px;
+		
+}
+.menu-dropdown-width{
+	width: 430px;
+}
+.border-bottom {
+	position: relative;
+	margin-top: 5px;
+	margin-bottom:5px;
+    border-bottom: 1px solid #ccc;
+    width: 100%
+}
+.list-element-left{
+	position: relative;
+	margin-left: 5px;
+}
+.list-element-right{
+	position: relative;
+	margin-right: 5px;
+}
+.text-center{
+	position: relative;
+	margin-left: 195px;
+}
+
+.blue-font{
+	color:#3b5998;
+	font-size:13px
+}
+.gray-font{
+	color: #7f7f7f;
+}
+.small-font{
+	font-size:10px;
+	
+}
+.text-in-center{
+	text-align: center;
+}
+
+.row .col-lg-10 {
+  width: 880px;
+  min-width:0px;
+    
+}
+.cover-photo{
+	background-image: url("../images/cpic.jpg");
+	background-repeat: no-repeat;
+    vertical-align: middle;
+    background-size: auto auto;
+	width:850px;
+	height:315px;
+	
+}
+.cover-outer-div{
+	overflow:hidden;
+	margin-top:10px;
+	cursor:pointer;
+	padding: 0px;
+	border: 0px solid #909090;
+}
+
+#cover-pic-button-div{
+	position:relative;
+	left: 588px;
+
+top: 220px;
+	display:inline-block;
+}
+#cover-pic-button-div  .btn{
+	
+	line-height: 1.2;
+	font-weight: bold;
+	font-size:11px;
+	border-radius:0px;
+	color: #4E5665;
+}
+
+
+.image-spec1{
+width: 80px;
+float: left;
+padding-left: 10px;
+padding-right: 10px;	
+}
+.image-spec2{
+width: 80px;
+float: right; 
+padding-right: 10px;
+}
+
+.camera-icon-div{
+  position:relative;
+  height:40px;
+  width:200px;
+ 
+}
+#camera-icon{
+	background-image: url("../images/icons.png");
+	background-repeat: no-repeat;
+	background-size: auto auto;
+	vertical-align:middle;
+	display: inline-block;
+    background-position:-1px -2px;
+  	width:32px;
+	height:32px;
+	margin-top:25px;
+	margin-left:15px;
+	z-index: 100;
+	
+}
+.camera-icon-hover-description{
+	  position: relative;
+	  top:-54px;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  padding:0px;
+	  background-color:#000;
+	  border:1px solid #fff;
+	  color: #fff;
+	  margin-top:25px;
+	  margin-left:25px;
+	  font:18px;
+	  visibility:hidden;
+	  opacity: 0; 
+	
+}
+.camera-icon-div:hover  .camera-icon-hover-description{
+	
+	display:inline-block;
+	visibility:visible;
+  	opacity: 1;
+  	
+}
+.camera-icon-div:hover  {
+	
+	display:inline-block;
+	visibility:visible;
+  	opacity: 1;
+  	transform: scale(0.6);
+}
+
+
+
+
+.div-style-template{
+	border-radius:4px;
+	border-color: 1px solid #141823;
+	color: #9197A3;
+	font-size:12px;
+	word-wrap:break-word;
+	margin:5px;
+	 
+
+
+}
+
+
+.profile-menu{
+	background-color: #FFF; 
+	
+	height: auto;
+	padding-left: 201px;
+	clear:both;
+	text-align: left;
+	margin-top: -10px;
+	height: 43px;
+	
+}
+
+.profile-menu a{
+	border-top-width:0px;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#E9EAED;
+	border-bottom-width: 0px;
+	border-left-width: 0px; 
+	color:#3B5998;
+	cursor: pointer;
+	display:block;
+	float: left;
+	font-weight:bolder;
+	font-size: 14px;
+	height:43px;
+	line-height:42.7px;
+	padding-top:0px;
+	padding-right:17px;
+	padding-left:17px;
+	padding-bottom:0px;
+	position: relative;
+	text-align: left;
+	vertical-align: middle;
+	text-decoration: none;
+	font-family: helvetica,arial,'lucida grande',sans-serif;
+}
+	
+		
+.profile-menu a:HOVER {
+	
+	background-color: #F6F7F8;
+	text-decoration: none;
+	color: #3B5998;
+	
+}
+
+#friends-count{
+	color: #89919C;
+	font-size: 11px;
+	font-weight: 400;
+	padding-left: 6px;
+	text-align: left;
+	word-wrap:break-word;
+	line-height: 33.55px;
+}
+
+
+.profile-menu ul{
+   padding:0px;
+   list-style: none;
+}
+ 
+ .profile-menu ul li {
+   float: left;
+   text-align: left;
+   line-height: 21px;
+   padding: 0px;
+}
+
+#profile-pic{
+	background-color: #FFF;
+	border: 1px solid #E9EAED;
+	border-radius: 1px;
+	cursor: pointer;
+	line-height: 1.34;
+	font-size: 12px;
+	margin-left: -180px;
+	margin-top:-140px;
+	float:left;
+	z-index: 2;
+}
+
+#profile-pic-image{
+	height: 160px;
+	width: 160px;
+	line-height: 1.34;
+	border: 4px solid #FFF;
+	border-radius: 3px;
+	}
+
+
+#timeline-tab-color{
+	color:#373E4D;
+	border-left-width:1px;
+	border-left-style:solid;
+	border-left-color:#E9EAED;
+}
+
+#timeline-tab-triangle{
+	color:#adb9d3;
+}
+ 
+#profile-menu-more{
+   width:83px;
+}
+
+.logo {
+    background-image: url('../images/green.png');
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 29px;
+    width: 29px;
+    background-position: -156px -120px;
+    margin-left: 62px;
+    margin-top: 6px;
+}
+
+#profile-menu-more ul li{
+	background-color: #FFF; 
+	width: 83px;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color:#3B5998;
+	
+}
+
+#profile-menu-more ul li:HOVER {
+	
+	background-color: #F6F7F8;
+	text-decoration: none;
+	color: #3B5998;
+	
+}
+
+   
+.profile-menu ul li ul{
+	display: none;
+	
+}
+.profile-menu ul li:hover ul{
+	display: block;
+	position: absolute;
+	width: 82px;
+	margin-top: 43px;
+	cursor: pointer; /* display the dropdown */
+}
+    
+
+
+.timeline-capsule{
+	background-color: #909090;
+}
+.timeline-div{
+	border-radius:4px;
+	border-color: 1px solid #141823;
+	color: #9197A3;
+	font-size:12px;
+	word-wrap:break-word;
+	margin:5px;
+
+
+}
+.chat-pane{
+	padding: 0px;
+	padding-top:5px;
+	position:fixedixed;
+	float: right;
+	width: 240px;
+	border: 1px solid #E9EAED;
+}
+.chat-image{
+	height: 32px;
+	width: 32px;
+	float: left;
+	margin-right: 5px;	
+}
+.chat-text{
+	color: #141823;
+	font-size: 12px;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	line-height: 32px;
+	
+}
+
+.chat-text-right{
+	color: #63A924;
+	font-size: 12px;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	line-height: 32px;
+	float: right;
+}
+
+#font-color-grey{
+	color:#9197A3;
+}
+.chat-pane-heading{
+	color: #9197A3; 
+	font-weight: 700PX;
+	font-size: 12px;
+	height: 23px;
+	padding: 1px;
+}
+#chat-pane-heading-right{
+	float: right;
+	color: #9197A3; 
+	font-weight: 700PX;
+	font-size: 12px;
+}
+#chat-pane-games{
+	border-bottom: 1px solid #E9EAED;
+	margin-bottom: 5px;
+}
+#chat-recommended{
+	border-bottom: 1px solid #E9EAED;
+	margin-bottom: 5px;
+}
+
+.chat-game-image{
+	width: 28%; 
+	float: left;
+	height:50px;
+	border-radius:7px;
+	margin-bottom: 10px;
+	margin-left: 10px
+	
+}
+
+.chat-div{
+	height: 40px;
+	width: 100%;
+	padding: 1px;
+	padding-left: 5px;
+	vertical-align: middle;
+	
+	
+}
+#chat-user{
+	height: 468px;	
+	border: 1px solid #E9EAED;
+	padding-top: 10px;
+}
+
+#chat-search{
+	height: 25px;
+	margin-top: -8px	
+}
+#chat-form{
+	height: 25px;
+	padding-top: 0px;	
+}
+
+.scroll-menu{
+	height:235px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+.chat-div:HOVER {
+	background-color: #F6F7F8;
+	
+}
+.scroll-menu:HOVER{
+	
+	overflow-y:scroll;
+}
+
+
+
+
+
+
