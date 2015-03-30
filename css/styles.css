@@ -42,7 +42,7 @@
 .camera-icon-div{
   position:relative;
   height:40px;
-  width: 150px;
+  width:200px;
  
 }
 #camera-icon{
@@ -60,23 +60,28 @@
 	
 }
 .camera-icon-hover-description{
-	  position: absolute;
-	  top: 0;
+	  position: relative;
+	  top:-54px;
 	  bottom: 0;
 	  left: 0;
 	  right: 0;
-	  background: rgba(29, 106, 154, 0.72);
+	  padding:0px;
+	  background-color:#000;
+	  border:1px solid #fff;
 	  color: #fff;
 	  margin-top:25px;
 	  margin-left:25px;
-	  font:16px;
-	  visibility: hidden;
+	  font:18px;
+	  visibility:hidden;
 	  opacity: 0; 
+	
 }
-.camera-icon-div:hover .camera-icon-hover-description{
-	transform: scale(0.6);
-	visibility: visible;
+.camera-icon-div:hover  .camera-icon-hover-description{
+	
+	display:inline-block;
+	visibility:visible;
   	opacity: 1;
+  	transform: scale(0.6);
 }
 
 
