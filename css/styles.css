@@ -1,6 +1,6 @@
 
 .background-color{
-	background-color: #909090;
+	background-color: #adb9d3;
 }
 
 
@@ -16,7 +16,7 @@
     background-size: auto auto;
 	width:850px;
 	height:315px;
-	position:absolute;
+	
 }
 .cover-outer-div{
 	overflow:hidden;
@@ -28,8 +28,8 @@
 
 #cover-pic-button-div{
 	position:absolute;
-	bottom:15px;
-	right:15px;
+	bottom:90px;
+	right:25px;
 	display:inline-block;
 }
 #cover-pic-button-div  .btn{
@@ -102,12 +102,12 @@
 
 .profile-menu{
 	background-color: #FFF; 
-	width: inherit;
+	
 	height: auto;
 	padding-left: 201px;
 	clear:both;
 	text-align: left;
-	margin-top: 60px;
+	margin-top: -10px;
 	height: 43px;
 	
 }
@@ -192,7 +192,6 @@
 }
 
 
- 
  
 #profile-menu-more{
    width:83px;
