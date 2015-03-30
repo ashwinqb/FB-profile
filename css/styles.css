@@ -11,7 +11,7 @@
 	
 	background-image: url("../images/cpic.jpg");
 	background-repeat: no-repeat;
-     vertical-align: middle;
+    vertical-align: middle;
     background-size: auto auto;
 	width:850px;
 	height:315px;
@@ -51,7 +51,7 @@
 	 
 }
 .timeline-capsule{
-	background-color: #909090;
+	background: none repeat scroll 0% 0% transparent;
 }
 .timeline-div{
 	border-radius:4px;
@@ -61,3 +61,16 @@
 	word-wrap:break-word;
 	margin:5px;
 }
+.work{
+	background-image:url("../images/About me/work.jpg");
+	background-repeat: none;
+	text-align:left;	
+}
+.about-me{
+	list-style-type:none;
+	
+	
+	
+}
+
+.about-me a:hover
