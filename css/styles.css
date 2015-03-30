@@ -355,9 +355,15 @@ top: 220px;
 .scroll-menu{
 	height:235px;
 	overflow-x:hidden;
-	overflow-y:scroll;
+	overflow-y:hidden;
 }
 .chat-div:HOVER {
 	background-color: #F6F7F8;
+	
 }
+.scroll-menu:HOVER{
+	
+	overflow-y:scroll;
+}
+
 
