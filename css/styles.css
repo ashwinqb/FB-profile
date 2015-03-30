@@ -109,6 +109,7 @@
 .panel .nav>li>a {
 	font-weight: bold;
 }
+
 .expand {
     height: 30px;
     width: 100%;
@@ -118,6 +119,7 @@
 }
 .post {
 	color: #fff;
+	font-weight: bold;
 }
 /*
 border-color: #435a8b #3c5488 #334c83;*/
