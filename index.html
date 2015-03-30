@@ -10,9 +10,8 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
-<link rel="stylesheet"
-	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -58,12 +57,13 @@
 						<a class="btn btn-default btn-sm" href="#" role="button">Update Info</a>
 						<div class="btn-group" role="group" aria-label="...">
 							  <a type="button" class="btn btn-default btn-sm" title="See your activity on Facebook">View Activity Log</a>
-							  <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">...</button>
-								 <ul class="dropdown-menu">
-									<li role="presentation" >View As</li>
-									<li role="presentation" >Timeline Setting</li>
-									<li role="presentation" >Add a badge to your site</li>
+							  <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" >...</button>
+								 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu4">
+									<li role="presentation" ><a role="menuitem" tabindex="-1" href="#">View As </a></li>
+									<li role="presentation" ><a role="menuitem" tabindex="-1" href="#">Timeline Setting</a></li>
+									<li role="presentation" ><a role="menuitem" tabindex="-1" href="#">Add a badge to your site</a></li>
 								</ul>
+	
 						</div>
 					</div>
 				</div>
@@ -74,14 +74,25 @@
 
 
 
-
 	<!-- Proile pic and associated buttons -->
-
+		
+	<div class="panel panel-default" id="friendsPic" >
+  <div class="panel-heading">
+    <a class="panel-title">FRIENDS</a>
+    <a class="panel-title">.</a>
+    <a class="panel-title">205</a>
+    <a id="editPic pull-right"></a>
+  </div>
+  <div class="panel-body">
+    Panel content
+  </div>
+</div>
 	<!-- /Proile pic and associated buttons -->
 
 		
 
 		</div>
+
 	</div>
 	<!-- /the main container -->
 </div>

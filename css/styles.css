@@ -15,7 +15,7 @@
     background-size: auto auto;
 	width:850px;
 	height:315px;
-	position:absolute;
+	
 }
 .cover-outer-div{
 	overflow:hidden;
@@ -23,12 +23,13 @@
 	cursor:pointer;
 	padding: 0px;
 	border: 0px solid #909090;
+	
 }
 
 #cover-pic-button-div{
 	position:absolute;
-	bottom:15px;
-	right:15px;
+	bottom:135px;
+	right:25px;
 	display:inline-block;
 }
 #cover-pic-button-div  .btn{
@@ -104,4 +105,20 @@
 	font-size:12px;
 	word-wrap:break-word;
 	margin:5px;
+}
+.dropdown-menu > li > a:hover{
+	background-color:#003399;
+	color: #fff;
+	
+}
+
+#editPic{
+	background-image: url("../images/icons.png");
+	background-repeat: no-repeat;
+    vertical-align: middle;
+    background-size: auto auto;
+    background-position:-1px -2px;
+	width:10px;
+	height:10px;
+	
 }
