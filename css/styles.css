@@ -7,6 +7,20 @@
 	color: black;
 	
 }
+.gray-font{
+	color: #999;
+}
+.small-font1{
+	font-size:13px;
+	
+}
+.small-font2{
+	font-size:9px;
+	
+}
+.div-height{
+	height: 70px;
+}
 .background-color{
 	background-color: #adb9d3;
 }
@@ -26,6 +40,18 @@
    display:inline-block;
    vertical-align:middle;
    margin-left:20px;
+   font-size:13px}
+   .mLeft220{
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   margin-left:220px;
+   font-size:13px}
+.mLeft50{
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   margin-left:50px;
    font-size:13px}
 .mRight20{
    position:relative;
@@ -150,17 +176,16 @@ top: 220px;
 }
 
 
-.image-spec{
+.image-spec1{
 width: 80px;
 float: left;
 padding-left: 10px;
 padding-right: 10px;	
 }
-.img-spc-right{
-width=80px;
-float: left;
-padding-left: 10px;
-padding-right: 10px;	
+.image-spec2{
+width: 80px;
+float: right; 
+padding-right: 10px;
 }
 
 .camera-icon-div{
@@ -320,6 +345,18 @@ padding-right: 10px;
    width:83px;
 }
 
+.logo {
+    background-image: url('../images/green.png');
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 29px;
+    width: 29px;
+    background-position: -156px -120px;
+    margin-left: 62px;
+    margin-top: 6px;
+}
+
 #profile-menu-more ul li{
 	background-color: #FFF; 
 	width: 83px;
@@ -349,7 +386,7 @@ padding-right: 10px;
 }
     
 
-}
+
 .timeline-capsule{
 	background-color: #909090;
 }
