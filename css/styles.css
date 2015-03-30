@@ -1,141 +1,8 @@
 
-.blue-font{
-	color:#3b5998;
-	
-}
-.black-font{
-	color: black;
-	
-}
-.gray-font{
-	color: #999;
-}
-.small-font1{
-	font-size:13px;
-	
-}
-.small-font2{
-	font-size:9px;
-	
-}
-.div-height{
-	height: 70px;
-}
 .background-color{
 	background-color: #adb9d3;
 }
 
-
-.bgcolor{
-	background-color:#3b5998;
-}
-.mTop5{
-	margin-top:5px;
-} 
-.mBottom5{
-	margin-bottom:5px;
-}
-.mLeft20{
-   position:relative;
-   display:inline-block;
-   vertical-align:middle;
-   margin-left:20px;
-   font-size:13px}
-   .mLeft220{
-   position:relative;
-   display:inline-block;
-   vertical-align:middle;
-   margin-left:220px;
-   font-size:13px}
-.mLeft50{
-   position:relative;
-   display:inline-block;
-   vertical-align:middle;
-   margin-left:50px;
-   font-size:13px}
-.mRight20{
-   position:relative;
-   display:inline-block;
-   vertical-align:middle;
-   margin-right:20px;
-   font-size:20px;}
-.mTop10{
-	margin-top:10px
-}
-.whitefont{
-	color: white;
-}
- .iconStyle{
-  position:relative;
-  display:inline-block;
-   vertical-align:middle;
-   margin-left:10px;
-   font-size:20px;
-   
-  }
- .icon-style{
- color: #273d6d;
- 
- }
- .icon-style:HOVER{
- color: #243251;
- }
- .icon-style:ACTIVE{
- color: white;
- }
-  
-  .mouse-pointer{
-  cursor:pointer;
-  }
-.navbar button:HOVER{
-  background-color:#2f436d;
-  color: white;
-  }
-#icon-active:AFTER {
-    background-color: white;
-}
-.messagemenu{
-	position: absolute;
-	width: 430px;
-		
-}
-.menu-dropdown-width{
-	width: 430px;
-}
-.border-bottom {
-	position: relative;
-	margin-top: 5px;
-	margin-bottom:5px;
-    border-bottom: 1px solid #ccc;
-    width: 100%
-}
-.list-element-left{
-	position: relative;
-	margin-left: 5px;
-}
-.list-element-right{
-	position: relative;
-	margin-right: 5px;
-}
-.text-center{
-	position: relative;
-	margin-left: 195px;
-}
-
-.blue-font{
-	color:#3b5998;
-	font-size:13px
-}
-.gray-font{
-	color: #7f7f7f;
-}
-.small-font{
-	font-size:10px;
-	
-}
-.text-in-center{
-	text-align: center;
-}
 
 .row .col-lg-10 {
   width: 880px;
@@ -174,20 +41,6 @@ top: 220px;
 	border-radius:0px;
 	color: #4E5665;
 }
-
-
-.image-spec1{
-width: 80px;
-float: left;
-padding-left: 10px;
-padding-right: 10px;	
-}
-.image-spec2{
-width: 80px;
-float: right; 
-padding-right: 10px;
-}
-
 .camera-icon-div{
   position:relative;
   height:40px;
@@ -239,7 +92,6 @@ padding-right: 10px;
   	opacity: 1;
   	transform: scale(0.6);
 }
-
 
 
 
@@ -363,18 +215,6 @@ padding-right: 10px;
    width:83px;
 }
 
-.logo {
-    background-image: url('../images/green.png');
-    background-size: auto auto;
-    background-repeat: no-repeat;
-    display: inline-block;
-    height: 29px;
-    width: 29px;
-    background-position: -156px -120px;
-    margin-left: 62px;
-    margin-top: 6px;
-}
-
 #profile-menu-more ul li{
 	background-color: #FFF; 
 	width: 83px;
@@ -409,7 +249,7 @@ padding-right: 10px;
 }
     
 
-
+}
 .timeline-capsule{
 	background-color: #909090;
 }
@@ -420,8 +260,6 @@ padding-right: 10px;
 	font-size:12px;
 	word-wrap:break-word;
 	margin:5px;
-
-
 }
 .chat-pane{
 	padding: 0px;
@@ -527,9 +365,5 @@ padding-right: 10px;
 	
 	overflow-y:scroll;
 }
-
-
-
-
 
 
