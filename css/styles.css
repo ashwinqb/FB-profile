@@ -70,7 +70,13 @@
     width: 100%;
     margin-top: 5px;
     border: none;
+    outline: none;
 }
+.post {
+	color: #fff;
+}
+/*
+border-color: #435a8b #3c5488 #334c83;*/
 
 /*End Update Status*/
 
