@@ -2,3 +2,75 @@
 .background-color{
 	background-color: #909090;
 }
+.bgcolor{
+	background-color:#3b5998;
+}
+.mTop5{
+	margin-top:5px;
+} 
+.mBottom5{
+	margin-bottom:5px;
+}
+.mLeft20{
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   margin-left:20px;
+   font-size:13px}
+.mRight20{
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   margin-right:20px;
+   font-size:20px;}
+.mTop10{
+	margin-top:10px
+}
+.whitefont{
+	color: white;
+}
+ .iconStyle{
+  position:relative;
+  display:inline-block;
+   vertical-align:middle;
+   margin-left:10px;
+   font-size:20px;
+   
+  }
+.messagemenu{
+	position: absolute;
+	width: 430px;
+		
+}
+.menu-dropdown-width{
+	width: 430px;
+}
+.border-bottom {
+	position: relative;
+	margin-top: 5px;
+	margin-bottom:5px;
+    border-bottom: 1px solid #ccc;
+    width: 100%
+}
+.list-element-left{
+	position: relative;
+	margin-left: 5px;
+}
+.list-element-right{
+	position: relative;
+	margin-right: 5px;
+}
+.blue-font{
+	color:#3b5998;
+	font-size:13px
+}
+.gray-font{
+	color: #7f7f7f;
+}
+.small-font{
+	font-size:10px;
+	
+}
+.text-in-center{
+	text-align: center;
+}
