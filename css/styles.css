@@ -1,4 +1,31 @@
 
+.nav-spec{
+	width: 35%; 
+	position: relative; 
+	display: inline-block; 
+	float: left;}
+#searchbar-spec{
+	height: 29px;
+	width: 350px;
+}
+.search-button{
+	height: 29px;
+}
+.prof-pic-nav{
+	height: 21px;
+	width: 21px;
+}
+.frnd-req{
+	height: 52px;
+	width: 52px;
+}
+.text-left
+{
+	text-align: left;
+}
+.img-like{
+	width: 16px;
+}
 .blue-font{
 	color:#3b5998;
 	
@@ -53,15 +80,25 @@
    display:inline-block;
    vertical-align:middle;
    margin-left:50px;
-   font-size:13px}
+   }
 .mRight20{
    position:relative;
    display:inline-block;
    vertical-align:middle;
    margin-right:20px;
-   font-size:20px;}
+   }
+   .caret-spec{
+   font-size: 50px;
+   }
 .mTop10{
 	margin-top:10px
+}
+.search-icon{
+	margin-left:210px;
+	
+}
+.bar-width{
+	height:45px;
 }
 .whitefont{
 	color: white;
@@ -88,10 +125,22 @@
   .mouse-pointer{
   cursor:pointer;
   }
-.navbar button:HOVER{
+.btn-hover:HOVER{
   background-color:#2f436d;
   color: white;
   }
+ .li-hover-msg:HOVER{
+ background-color:#edf0f5;
+ }
+.li-hover-not:HOVER{
+ background-color:#edf0f5;
+
+ }
+
+ .scroll-nav{
+    height:400px;
+    overflow-y:scroll;
+}
 #icon-active:AFTER {
     background-color: white;
 }
@@ -462,8 +511,8 @@ padding-right: 10px;
     height: 29px;
     width: 29px;
     background-position: -156px -120px;
-    margin-left: 62px;
-    margin-top: 6px;
+   margin-left: 75px;
+margin-top: 8px;
 }
 
 #profile-menu-more ul li{
