@@ -433,6 +433,13 @@ padding-right: 10px;
 .panel .nav>li>a {
 	font-weight: bold;
 }
+.status-width {
+		padding: 0px;
+}
+.panel.status-panel {
+	margin-left: 0px;
+	margin-right: 0px;
+}
 .expand {
     height: 30px;
     width: 100%;
