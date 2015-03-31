@@ -154,8 +154,7 @@
 }
 .cover-outer-div{
 	overflow:hidden;
-margin-top:36px;
-
+	margin-top:36px;
 	cursor:pointer;
 	padding: 0px;
 	border: 0px solid #909090;
@@ -192,10 +191,10 @@ padding-right: 10px;
 }
 
 .camera-icon-div{
-  position:relative;
+  position:absolute;
   height:40px;
   width:200px;
- 
+	margin-top:40px;
 
 }
 #camera-icon{
@@ -207,7 +206,7 @@ padding-right: 10px;
     background-position:-1px -2px;
   	width:32px;
 	height:32px;
-	margin-top:25px;
+	margin-top:0px;
 	margin-left:15px;
 	z-index: 100;
 	
@@ -220,10 +219,10 @@ padding-right: 10px;
 	  right: 0;
 	  padding:0px;
 	  background-color:#000;
-	  border:1px solid #fff;
+	 
 	  color: #fff;
 	  margin-top:25px;
-	  margin-left:25px;
+	  margin-left:50px;
 	  font:18px;
 	  visibility:hidden;
 	  opacity: 0; 
@@ -236,13 +235,12 @@ padding-right: 10px;
   	opacity: 1;
   	
 }
-.camera-icon-div:hover  {
-	
-	display:inline-block;
-	visibility:visible;
-  	opacity: 1;
-  	transform: scale(0.6);
+.camera-icon-div:hover{
+	transform:scale(0.8);
+	  border:1px solid #fff;
+	  background-color: #000;
 }
+
 
 .div-style-template{
 	border-radius:4px;
@@ -603,7 +601,7 @@ color:#909090;
 	visibility: visible;
 	opacity:1;
 }
-.panel-heading a{
+.frnds-panel-heading a{
 	font-size: 12px;
 	color:#909090;
 }
@@ -611,14 +609,14 @@ color:#909090;
 	width:93px;
 	height:95px;
 }
-.panel-body {
+.frnds-panel-body {
 	padding:0px;
 }
-.panel-heading >a:first-child{
+.frnds-panel-heading >a:first-child{
 	color:#000;
 }
 
-.panel-body > div:last-child{
+.frnds-panel-body  > div:last-child{
 	margin-bottom:5px;
 }
 .frnd-container
