@@ -420,6 +420,65 @@ padding-right: 10px;
     
 
 
+/*Update Status*/
+
+.panel .nav>li>a:hover,
+.panel .nav>li>a:focus {
+	background-color: #ffffff;
+	text-decoration: underline;
+}
+.panel .nav .active>a:hover {
+	text-decoration: none;
+}
+.panel .nav>li>a {
+	font-weight: bold;
+}
+.status-width {
+		padding: 0px;
+}
+.panel.status-panel {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.expand {
+    height: 30px;
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+}
+.btn.btn-primary.post, .btn.frnds {
+	font-size: 12px;
+	height: 24px;
+	border-radius: 0px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.btn.btn-primary.post {
+	width: 60px;
+	background-color: #4e69a2;
+	border-color: #435a8b #3c5488 #334c83;
+	border: 1px solid;
+	padding: 0px 16px 0px 16px;
+	margin-left: 5px;
+}
+.btn.frnds {
+	width: 104px;
+	background-color: #fff;
+	border-color: #cccccc #c5c6c8 #b6b7b9;
+  	color: #4e5665;
+	padding: 0px 8px 0px 8px;
+}
+.icon {
+	margin-right: 5px;
+	margin-bottom: 3px;
+	width: 16px;
+	height: 16px;
+}
+
+/*End Update Status*/
+
 .timeline-capsule{
 	background: none repeat scroll 0% 0% transparent;
 }

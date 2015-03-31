@@ -23,6 +23,11 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" href="js/script.js"></script>	
+	
+	
+	
+
 
 
 <link rel="stylesheet" type="text/css" href="fonts/bootstrap.css">
@@ -397,7 +402,7 @@
 							<a id="camera-icon"></a>
 							<p class="camera-icon-hover-description">Update cover photo</p>
 						</div>
-						<div id=cover-pic-button-div>
+						<div id="cover-pic-button-div">
 							<a class="btn btn-default btn-sm" href="#" role="button">Update
 								Info</a>
 							<div class="btn-group" role="group" aria-label="...">
@@ -431,7 +436,13 @@
 						alt="Arjun Jayaraj" src="images/mark2.jpg">
 					</span>
 
+
+	
+
+					
+
 					<h3 id="profile-name" >Mark Zuckerberg</h3>
+
 
 					<ul>
 						<li><a id="timeline-tab-color" href="#"> Timeline</a></li>
@@ -629,9 +640,28 @@
 			</div>
 
 		
-<div class= "col-xs-7 col-md-7 col-lg-7 timeline-capsule"><!-- Main div for articles on timeline -->
+<div class= "col-xs-7 col-md-7 col-lg-7 timeline-capsule status-width"><!-- Main div for articles on timeline -->
 
 
+
+				<!-- Update Status Lawrence-->
+				<div class="panel panel-default timeline-div status-panel">
+					<ul class="nav nav-tabs nav-justified" role="tablist">
+       					<li class="active"><img src="images/status.png" class="icon">Status</a></li>
+       					<li><a href="#"><img src="images/photo.png" class="icon">Photo/Video</a></li>
+        				<li><a href="#"><img src="images/life.png" class="icon">Life Event</a></li>
+        			</ul>
+        			<textarea type="textarea" class="expand" data-toggle="collapse" data-target="#demo" placeholder="What's on your mind?">
+        			</textarea>
+        			<div id="demo" class="panel-body collapse">
+        				<button class="btn btn-primary pull-right post" type="button">Post</button>
+        				<button class="btn pull-right frnds" type="button">
+        					<span class="glyphicon glyphicon-user" aria-hidden="true"></span>Friends
+        					<span class="caret"></span>
+        				</button>
+  					</div>
+				</div>
+				<!-- /Update Status-->		
 
 
 
