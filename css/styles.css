@@ -20,7 +20,7 @@
 }
 .cover-outer-div{
 	overflow:hidden;
-	margin-top:10px;
+	margin-top:36px;
 	cursor:pointer;
 	padding: 0px;
 	border: 0px solid #909090;
@@ -241,17 +241,19 @@ top: 220px;
 	
 }
 .profile-menu ul li:hover ul{
+
 	display: block;
 	position: absolute;
 	width: 82px;
 	margin-top: 43px;
 	cursor: pointer; /* display the dropdown */
+
 }
     
 
 }
 .timeline-capsule{
-	background-color: #909090;
+	background: none repeat scroll 0% 0% transparent;
 }
 .timeline-div{
 	border-radius:4px;
@@ -260,14 +262,18 @@ top: 220px;
 	font-size:12px;
 	word-wrap:break-word;
 	margin:5px;
+	background-color:white;
 }
 .chat-pane{
 	padding: 0px;
 	padding-top:5px;
-	position:fixedixed;
+	position:fixed;
 	float: right;
 	width: 240px;
 	border: 1px solid #E9EAED;
+	margin-top:38px;
+	margin-left:1046px;
+	
 }
 .chat-image{
 	height: 32px;
@@ -365,5 +371,68 @@ top: 220px;
 	
 	overflow-y:scroll;
 }
+.about-me-list{
+	
+	list-style-type:none;
+	padding-left:10px;
+}
+.about-me-list li{
+	margin-bottom:5px;
+	margin-top: 5px;
+}
 
+.work{
+	background:url("../images/About me/work.jpg") no-repeat left;
+}
+.relationship{
+	background:url("../images/About me/relationship.jpg") no-repeat left;
+}
+.education{
+	background:url("../images/About me/education.jpg") no-repeat left;
+}
+.current-place{
+	background:url("../images/About me/home.jpg") no-repeat left;
+}
+.from-place-birth{
+	background:url("../images/About me/location.jpg") no-repeat left;
+}
+
+.edit-me>a{
+	text-decoration:none;
+	color:gray;
+	opacity:0;
+	position: relative;
+	margin-right:10px;
+}
+.work:hover a{
+	opacity:1;
+}
+.education:hover a{
+	opacity:1;
+}
+.relationship:hover a{
+	opacity:1;
+}
+.current-place:hover a{
+	opacity:1;
+}
+.edit-me>a:focus{
+	background-color:#3B5998;
+}
+.content-me{
+	margin-left:20px;
+}
+.content-me>span{
+	 display:list-item;
+}
+.display-on-hover{
+	display:none;
+}
+.edit-me>a:hover + .display-on-hover{
+	display:block;
+	background-color: black;
+	font-size: 12px;
+	width:25px;
+
+}
 
