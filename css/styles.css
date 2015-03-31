@@ -214,6 +214,7 @@ padding-right: 10px;
 	margin-left:15px;
 	z-index: 100;
 	
+	
 }
 .camera-icon-hover-description{
 	  position: relative;
@@ -257,6 +258,86 @@ padding-right: 10px;
 
 
 }
+
+.profile-camera-icon-div{
+  position:absolute;
+  height:60px;
+  width:182px;
+  margin-top: 100px;
+  margin-left: -170px;
+  vertical-align: middle;
+  text-decoration: none;
+  overflow: hidden;
+
+}
+
+#profile-pic:hover  .profile-camera-icon-hover-description{
+	
+	display:inline-block;
+	visibility:visible;
+  	opacity: 1;
+  	text-decoration: none;
+	font-size: 18px;
+	font-weight: bolder;
+  
+}
+#profile-pic:hover  .profile-camera-icon-div{
+	transform:scale(0.8);
+	background-color: transparent;
+	text-decoration: none;
+}
+
+#profile-pic:hover  #profile-camera-icon{
+	transform:scale(0.8);
+	margin-left: 10px;
+	margin-top: 16px;
+}
+#profile-pic .profile-camera-icon-div:HOVER{
+	background-color:black;
+	opacity:.75;
+}
+.profile-camera-icon-div span a:HOVER{
+	background-color: transparent;
+}
+
+
+#profile-camera-icon{
+	background-image: url("../images/icons.png");
+	background-repeat: no-repeat;
+	background-size: auto auto;
+	vertical-align:middle;
+	display: inline-block;
+    background-position:-1px -2px;
+  	width:30px;
+	height:30px;
+	margin-top:6px;
+	margin-left:20px;
+	margin-right:10px;
+	z-index: 10;
+	opacity:.66;
+	text-decoration: none;
+	border-right: none;
+	 
+}
+
+.profile-camera-icon-hover-description{
+	  position: relative;
+	  top:-65px;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  padding:0px;
+	  background-color:#000;
+	  height:45px;	
+	  color: #fff;
+	  margin-top:25px;
+	  margin-left:50px;
+	  font:18px;
+	  visibility:hidden;
+	  opacity: 0; 
+	  
+}
+
 #profile-name{
 	position:absolute;
 	display: inline-block;
@@ -370,6 +451,7 @@ padding-right: 10px;
  
 #profile-menu-more{
    width:83px;
+   
 }
 
 .logo {
@@ -417,6 +499,7 @@ padding-right: 10px;
 	width: 82px;
 	margin-top: 43px;
 	cursor: pointer; /* display the dropdown */
+	z-index: 5;
 
 }
     
@@ -575,7 +658,7 @@ padding-right: 10px;
 	
 }
 #chat-user{
-	height: 468px;	
+	height: 430px;	
 	border: 1px solid #E9EAED;
 	padding-top: 10px;
 }
@@ -749,6 +832,7 @@ color:#909090;
 	width:25px;
 
 }
+
 .icon-image{
 	background-image: url('../images/icon2.png');
     background-repeat: no-repeat;
