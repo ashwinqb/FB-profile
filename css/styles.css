@@ -882,4 +882,10 @@ color:#909090;
 .post ul li:first-child{
 	margin-bottom:15px;
 }
+#ad-column-structure{
+	width:163px;	
+}
+#timeline-structure{
+	margin-left: 50px;
+}
 
