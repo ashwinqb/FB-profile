@@ -1,4 +1,3 @@
-
 .background-color{
 	background-color: #adb9d3;
 }
@@ -20,7 +19,7 @@
 }
 .cover-outer-div{
 	overflow:hidden;
-	margin-top:10px;
+	margin-top:20px;
 	cursor:pointer;
 	padding: 0px;
 	border: 0px solid #909090;
@@ -28,16 +27,10 @@
 }
 
 #cover-pic-button-div{
-<<<<<<< HEAD
-	position:absolute;
-	bottom:135px;
-	right:25px;
-=======
+
 	position:relative;
 	left: 588px;
-
-top: 220px;
->>>>>>> dev
+	top: 220px;
 	display:inline-block;
 }
 #cover-pic-button-div  .btn{
@@ -53,6 +46,7 @@ top: 220px;
   height:40px;
   width:200px;
  
+
 }
 #camera-icon{
 	background-image: url("../images/icons.png");
@@ -92,9 +86,6 @@ top: 220px;
   	opacity: 1;
   	transform: scale(0.6);
 }
-
-
-
 .div-style-template{
 	border-radius:4px;
 	border-color: 1px solid #141823;
@@ -106,7 +97,13 @@ top: 220px;
 
 
 }
-
+#profile-name{
+	position:absolute;
+	display: inline-block;
+	width:auto;
+	margin-top:-40px;
+	color:#fff;
+}
 
 .profile-menu{
 	background-color: #FFF; 
@@ -213,6 +210,7 @@ top: 220px;
 	padding-bottom: 5px;
 	padding-top: 5px;
 	color:#3B5998;
+
 	
 }
 
@@ -229,7 +227,8 @@ top: 220px;
 	display: none;
 }
 .profile-menu ul li:hover ul{
-	display: block; /* display the dropdown */
+	display: block;
+	z-index: 1000; /* display the dropdown */
 }
     
 
@@ -245,23 +244,87 @@ top: 220px;
 	word-wrap:break-word;
 	margin:5px;
 }
-<<<<<<< HEAD
-.dropdown-menu > li > a:hover{
+
+.dropdown-menu > li > a:hover{/* for the list in dropdown hover color */
 	background-color:#003399;
 	color: #fff;
 	
 }
-
-#editPic{
-	background-image: url("../images/icons.png");
-	background-repeat: no-repeat;
-    vertical-align: middle;
-    background-size: auto auto;
-    background-position:-1px -2px;
-	width:10px;
-	height:10px;
+.dropdown-menu{
+	z-index:2500;
+}
+.friends-pic-panel{
+	margin-top:20px;
+	cursor: pointer;
+}
+.edit-pic{
+visibility: hidden;
+opacity:0;
+color:#909090;
 	
 }
-=======
 
->>>>>>> dev
+.friends-pic-panel:hover .edit-pic{
+	display:inline-block;
+	visibility: visible;
+	opacity:1;
+}
+.panel-heading a{
+	font-size: 12px;
+	color:#909090;
+}
+.frnds-pic-size{
+	width:93px;
+	height:95px;
+}
+.panel-body {
+	padding:0px;
+}
+.panel-heading >a:first-child{
+	color:#000;
+}
+
+.panel-body > div:last-child{
+	margin-bottom:5px;
+}
+.frnd-container
+{
+    height:105px;
+    width:105px;
+    position:relative;
+    margin-top:5px;
+    float:left;
+    margin-left:5px;
+  
+}
+
+.frnd-image{    
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    
+  
+    
+}
+.frnd-name{
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:10px;
+    font-weight:bold;
+    left:0px;
+    top:75px;
+    width:100px;
+    height:30px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7)) repeat scroll 0% 0% transparent;
+    padding-left:5px;
+   
+}
+.col-lg-5{
+	margin-left:0px;
+	padding-left:0px;
+}
+
+
