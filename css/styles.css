@@ -479,7 +479,7 @@ padding-right: 10px;
 	
 }
 
-#profile-menu-more ul li:HOVER {
+#profile-menu-more ul li:HOVER{
 	
 	background-color: #F6F7F8;
 	text-decoration: none;
@@ -581,12 +581,13 @@ padding-right: 10px;
 .chat-pane{
 	padding: 0px;
 	padding-top:5px;
-	position:fixed;
+	display:inline-block;
 	float: right;
-	width: 240px;
+	position:fixed;
+	width: 194px;
 	border: 1px solid #E9EAED;
 	margin-top:38px;
-	margin-left:1046px;
+	
 	
 }
 .chat-image{
@@ -601,7 +602,7 @@ padding-right: 10px;
 	text-overflow: ellipsis;
 	vertical-align: middle;
 	line-height: 32px;
-	
+		
 }
 
 .chat-text-right{
