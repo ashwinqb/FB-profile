@@ -165,8 +165,12 @@
 
 	position:relative;
 	left: 588px;
-	top: 220px;
+	top: 280px;
 	display:inline-block;
+}
+#cover-pic-button-div > ul >.coverpic-dropdown{
+	z-index: 3500;
+	position:absolute;
 }
 #cover-pic-button-div  .btn{
 	
@@ -194,7 +198,7 @@ padding-right: 10px;
   position:absolute;
   height:40px;
   width:200px;
-	margin-top:40px;
+  margin-top:40px;
 
 }
 #camera-icon{
@@ -745,4 +749,51 @@ color:#909090;
 	width:25px;
 
 }
-
+.icon-image{
+	background-image: url('../images/icon2.png');
+    background-repeat: no-repeat;
+    background-size: auto auto;
+	background-position: 0px -80px;
+	height: 31px;
+	margin-left: -3px;
+	top: 4px;
+	width: 33px;
+	position:relative; 
+	display:inline-block
+}
+.camera-icon{
+	background-position: 0px -5px;
+}
+.user-icon{
+	background-position: 0px -404px;
+	
+}
+.smiley-icon{
+	background-position: 0px -244px;
+}
+.location-icon{
+	background-position: 0px -166px;
+}
+.status-bottombar{
+	padding: 0px;
+	background-color: #F6F7F8; 
+}
+.status-bottombar button{
+	margin-top:6px;
+	margin-right:6px;
+}
+.status-bottombar > span{
+	padding-top:6px;
+	margin-right:6px;
+}
+.post{
+	background-color: #fff;
+	
+}
+.post ul{
+	list-style-type: none;
+	padding:10px;
+}
+.post ul li:first-child{
+	margin-bottom:15px;
+}
