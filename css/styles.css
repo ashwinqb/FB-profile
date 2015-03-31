@@ -21,6 +21,7 @@
 .div-height{
 	height: 70px;
 }
+
 .background-color{
 	background-color: #adb9d3;
 }
@@ -153,17 +154,19 @@
 }
 .cover-outer-div{
 	overflow:hidden;
-	margin-top:36px;
+margin-top:36px;
+
 	cursor:pointer;
 	padding: 0px;
 	border: 0px solid #909090;
+	
 }
 
 #cover-pic-button-div{
+
 	position:relative;
 	left: 588px;
-
-top: 220px;
+	top: 220px;
 	display:inline-block;
 }
 #cover-pic-button-div  .btn{
@@ -193,6 +196,7 @@ padding-right: 10px;
   height:40px;
   width:200px;
  
+
 }
 #camera-icon{
 	background-image: url("../images/icons.png");
@@ -240,9 +244,6 @@ padding-right: 10px;
   	transform: scale(0.6);
 }
 
-
-
-
 .div-style-template{
 	border-radius:4px;
 	border-color: 1px solid #141823;
@@ -254,7 +255,13 @@ padding-right: 10px;
 
 
 }
-
+#profile-name{
+	position:absolute;
+	display: inline-block;
+	width:auto;
+	margin-top:-40px;
+	color:#fff;
+}
 
 .profile-menu{
 	background-color: #FFF; 
@@ -384,6 +391,7 @@ padding-right: 10px;
 	padding-bottom: 5px;
 	padding-top: 5px;
 	color:#3B5998;
+
 	
 }
 
@@ -423,6 +431,7 @@ padding-right: 10px;
 	word-wrap:break-word;
 	margin:5px;
 	background-color:white;
+	
 
 }
 .chat-pane{
@@ -508,6 +517,89 @@ padding-right: 10px;
 	height: 468px;	
 	border: 1px solid #E9EAED;
 	padding-top: 10px;
+}
+
+
+.dropdown-menu > li > a:hover{/* for the list in dropdown hover color */
+	background-color:#003399;
+	color: #fff;
+	
+}
+.dropdown-menu{
+	z-index:2500;
+}
+.friends-pic-panel{
+	
+	cursor: pointer;
+}
+.edit-pic{
+visibility: hidden;
+opacity:0;
+color:#909090;
+	
+}
+
+.friends-pic-panel:hover .edit-pic{
+	display:inline-block;
+	visibility: visible;
+	opacity:1;
+}
+.panel-heading a{
+	font-size: 12px;
+	color:#909090;
+}
+.frnds-pic-size{
+	width:93px;
+	height:95px;
+}
+.panel-body {
+	padding:0px;
+}
+.panel-heading >a:first-child{
+	color:#000;
+}
+
+.panel-body > div:last-child{
+	margin-bottom:5px;
+}
+.frnd-container
+{
+    height:95px;
+    width:98px;
+    position:relative;
+    margin-top:5px;
+    float:left;
+    margin-left:8px;
+  
+}
+
+.frnd-image{    
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    
+  
+    
+}
+.frnd-name{
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:10px;
+    font-weight:bold;
+    left:0px;
+    top:75px;
+    width:98px;
+    height:20px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7)) repeat scroll 0% 0% transparent;
+    padding-left:5px;
+   
+}
+.col-lg-5{
+	margin-left:0px;
+	padding-left:0px;
 }
 
 #chat-search{
@@ -596,3 +688,4 @@ padding-right: 10px;
 	width:25px;
 
 }
+
