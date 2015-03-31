@@ -21,6 +21,7 @@
 .div-height{
 	height: 70px;
 }
+
 .background-color{
 	background-color: #adb9d3;
 }
@@ -153,17 +154,19 @@
 }
 .cover-outer-div{
 	overflow:hidden;
-	margin-top:10px;
+margin-top:36px;
+
 	cursor:pointer;
 	padding: 0px;
 	border: 0px solid #909090;
+	
 }
 
 #cover-pic-button-div{
+
 	position:relative;
 	left: 588px;
-
-top: 220px;
+	top: 220px;
 	display:inline-block;
 }
 #cover-pic-button-div  .btn{
@@ -193,6 +196,7 @@ padding-right: 10px;
   height:40px;
   width:200px;
  
+
 }
 #camera-icon{
 	background-image: url("../images/icons.png");
@@ -240,9 +244,6 @@ padding-right: 10px;
   	transform: scale(0.6);
 }
 
-
-
-
 .div-style-template{
 	border-radius:4px;
 	border-color: 1px solid #141823;
@@ -254,7 +255,13 @@ padding-right: 10px;
 
 
 }
-
+#profile-name{
+	position:absolute;
+	display: inline-block;
+	width:auto;
+	margin-top:-40px;
+	color:#fff;
+}
 
 .profile-menu{
 	background-color: #FFF; 
@@ -384,6 +391,7 @@ padding-right: 10px;
 	padding-bottom: 5px;
 	padding-top: 5px;
 	color:#3B5998;
+
 	
 }
 
@@ -401,11 +409,13 @@ padding-right: 10px;
 	
 }
 .profile-menu ul li:hover ul{
+
 	display: block;
 	position: absolute;
 	width: 82px;
 	margin-top: 43px;
 	cursor: pointer; /* display the dropdown */
+
 }
     
 
@@ -463,7 +473,7 @@ padding-right: 10px;
 /*End Update Status*/
 
 .timeline-capsule{
-	background-color: #909090;
+	background: none repeat scroll 0% 0% transparent;
 }
 .timeline-div{
 	border-radius:4px;
@@ -472,16 +482,20 @@ padding-right: 10px;
 	font-size:12px;
 	word-wrap:break-word;
 	margin:5px;
-
+	background-color:white;
+	
 
 }
 .chat-pane{
 	padding: 0px;
 	padding-top:5px;
-	position:fixedixed;
+	position:fixed;
 	float: right;
 	width: 240px;
 	border: 1px solid #E9EAED;
+	margin-top:38px;
+	margin-left:1046px;
+	
 }
 .chat-image{
 	height: 32px;
@@ -557,6 +571,89 @@ padding-right: 10px;
 	padding-top: 10px;
 }
 
+
+.dropdown-menu > li > a:hover{/* for the list in dropdown hover color */
+	background-color:#003399;
+	color: #fff;
+	
+}
+.dropdown-menu{
+	z-index:2500;
+}
+.friends-pic-panel{
+	
+	cursor: pointer;
+}
+.edit-pic{
+visibility: hidden;
+opacity:0;
+color:#909090;
+	
+}
+
+.friends-pic-panel:hover .edit-pic{
+	display:inline-block;
+	visibility: visible;
+	opacity:1;
+}
+.panel-heading a{
+	font-size: 12px;
+	color:#909090;
+}
+.frnds-pic-size{
+	width:93px;
+	height:95px;
+}
+.panel-body {
+	padding:0px;
+}
+.panel-heading >a:first-child{
+	color:#000;
+}
+
+.panel-body > div:last-child{
+	margin-bottom:5px;
+}
+.frnd-container
+{
+    height:95px;
+    width:98px;
+    position:relative;
+    margin-top:5px;
+    float:left;
+    margin-left:8px;
+  
+}
+
+.frnd-image{    
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    
+  
+    
+}
+.frnd-name{
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:10px;
+    font-weight:bold;
+    left:0px;
+    top:75px;
+    width:98px;
+    height:20px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7)) repeat scroll 0% 0% transparent;
+    padding-left:5px;
+   
+}
+.col-lg-5{
+	margin-left:0px;
+	padding-left:0px;
+}
+
 #chat-search{
 	height: 25px;
 	margin-top: -8px	
@@ -579,9 +676,68 @@ padding-right: 10px;
 	
 	overflow-y:scroll;
 }
+.about-me-list{
+	
+	list-style-type:none;
+	padding-left:10px;
+}
+.about-me-list li{
+	margin-bottom:5px;
+	margin-top: 5px;
+}
 
+.work{
+	background:url("../images/About me/work.jpg") no-repeat left;
+}
+.relationship{
+	background:url("../images/About me/relationship.jpg") no-repeat left;
+}
+.education{
+	background:url("../images/About me/education.jpg") no-repeat left;
+}
+.current-place{
+	background:url("../images/About me/home.jpg") no-repeat left;
+}
+.from-place-birth{
+	background:url("../images/About me/location.jpg") no-repeat left;
+}
 
+.edit-me>a{
+	text-decoration:none;
+	color:gray;
+	opacity:0;
+	position: relative;
+	margin-right:10px;
+}
+.work:hover a{
+	opacity:1;
+}
+.education:hover a{
+	opacity:1;
+}
+.relationship:hover a{
+	opacity:1;
+}
+.current-place:hover a{
+	opacity:1;
+}
+.edit-me>a:focus{
+	background-color:#3B5998;
+}
+.content-me{
+	margin-left:20px;
+}
+.content-me>span{
+	 display:list-item;
+}
+.display-on-hover{
+	display:none;
+}
+.edit-me>a:hover + .display-on-hover{
+	display:block;
+	background-color: black;
+	font-size: 12px;
+	width:25px;
 
-
-
+}
 
