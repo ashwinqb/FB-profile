@@ -1,8 +1,142 @@
 
+.blue-font{
+	color:#3b5998;
+	
+}
+.black-font{
+	color: black;
+	
+}
+.gray-font{
+	color: #999;
+}
+.small-font1{
+	font-size:13px;
+	
+}
+.small-font2{
+	font-size:9px;
+	
+}
+.div-height{
+	height: 70px;
+}
+
 .background-color{
 	background-color: #adb9d3;
 }
 
+
+.bgcolor{
+	background-color:#3b5998;
+}
+.mTop5{
+	margin-top:5px;
+} 
+.mBottom5{
+	margin-bottom:5px;
+}
+.mLeft20{
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   margin-left:20px;
+   font-size:13px}
+   .mLeft220{
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   margin-left:220px;
+   font-size:13px}
+.mLeft50{
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   margin-left:50px;
+   font-size:13px}
+.mRight20{
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   margin-right:20px;
+   font-size:20px;}
+.mTop10{
+	margin-top:10px
+}
+.whitefont{
+	color: white;
+}
+ .iconStyle{
+  position:relative;
+  display:inline-block;
+   vertical-align:middle;
+   margin-left:10px;
+   font-size:20px;
+   
+  }
+ .icon-style{
+ color: #273d6d;
+ 
+ }
+ .icon-style:HOVER{
+ color: #243251;
+ }
+ .icon-style:ACTIVE{
+ color: white;
+ }
+  
+  .mouse-pointer{
+  cursor:pointer;
+  }
+.navbar button:HOVER{
+  background-color:#2f436d;
+  color: white;
+  }
+#icon-active:AFTER {
+    background-color: white;
+}
+.messagemenu{
+	position: absolute;
+	width: 430px;
+		
+}
+.menu-dropdown-width{
+	width: 430px;
+}
+.border-bottom {
+	position: relative;
+	margin-top: 5px;
+	margin-bottom:5px;
+    border-bottom: 1px solid #ccc;
+    width: 100%
+}
+.list-element-left{
+	position: relative;
+	margin-left: 5px;
+}
+.list-element-right{
+	position: relative;
+	margin-right: 5px;
+}
+.text-center{
+	position: relative;
+	margin-left: 195px;
+}
+
+.blue-font{
+	color:#3b5998;
+	font-size:13px
+}
+.gray-font{
+	color: #7f7f7f;
+}
+.small-font{
+	font-size:10px;
+	
+}
+.text-in-center{
+	text-align: center;
+}
 
 .row .col-lg-10 {
   width: 880px;
@@ -24,13 +158,14 @@
 	cursor:pointer;
 	padding: 0px;
 	border: 0px solid #909090;
+	
 }
 
 #cover-pic-button-div{
+
 	position:relative;
 	left: 588px;
-
-top: 220px;
+	top: 220px;
 	display:inline-block;
 }
 #cover-pic-button-div  .btn{
@@ -41,11 +176,26 @@ top: 220px;
 	border-radius:0px;
 	color: #4E5665;
 }
+
+
+.image-spec1{
+width: 80px;
+float: left;
+padding-left: 10px;
+padding-right: 10px;	
+}
+.image-spec2{
+width: 80px;
+float: right; 
+padding-right: 10px;
+}
+
 .camera-icon-div{
-  position:relative;
+  position:absolute;
   height:40px;
   width:200px;
- 
+	margin-top:40px;
+
 }
 #camera-icon{
 	background-image: url("../images/icons.png");
@@ -56,7 +206,7 @@ top: 220px;
     background-position:-1px -2px;
   	width:32px;
 	height:32px;
-	margin-top:25px;
+	margin-top:0px;
 	margin-left:15px;
 	z-index: 100;
 	
@@ -69,10 +219,10 @@ top: 220px;
 	  right: 0;
 	  padding:0px;
 	  background-color:#000;
-	  border:1px solid #fff;
+	 
 	  color: #fff;
 	  margin-top:25px;
-	  margin-left:25px;
+	  margin-left:50px;
 	  font:18px;
 	  visibility:hidden;
 	  opacity: 0; 
@@ -85,14 +235,11 @@ top: 220px;
   	opacity: 1;
   	
 }
-.camera-icon-div:hover  {
-	
-	display:inline-block;
-	visibility:visible;
-  	opacity: 1;
-  	transform: scale(0.6);
+.camera-icon-div:hover{
+	transform:scale(0.8);
+	  border:1px solid #fff;
+	  background-color: #000;
 }
-
 
 
 .div-style-template{
@@ -106,7 +253,13 @@ top: 220px;
 
 
 }
-
+#profile-name{
+	position:absolute;
+	display: inline-block;
+	width:auto;
+	margin-top:-40px;
+	color:#fff;
+}
 
 .profile-menu{
 	background-color: #FFF; 
@@ -215,6 +368,18 @@ top: 220px;
    width:83px;
 }
 
+.logo {
+    background-image: url('../images/green.png');
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 29px;
+    width: 29px;
+    background-position: -156px -120px;
+    margin-left: 62px;
+    margin-top: 6px;
+}
+
 #profile-menu-more ul li{
 	background-color: #FFF; 
 	width: 83px;
@@ -224,6 +389,7 @@ top: 220px;
 	padding-bottom: 5px;
 	padding-top: 5px;
 	color:#3B5998;
+
 	
 }
 
@@ -252,6 +418,65 @@ top: 220px;
     
 
 
+/*Update Status*/
+
+.panel .nav>li>a:hover,
+.panel .nav>li>a:focus {
+	background-color: #ffffff;
+	text-decoration: underline;
+}
+.panel .nav .active>a:hover {
+	text-decoration: none;
+}
+.panel .nav>li>a {
+	font-weight: bold;
+}
+.status-width {
+		padding: 0px;
+}
+.panel.status-panel {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.expand {
+    height: 30px;
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+}
+.btn.btn-primary.post, .btn.frnds {
+	font-size: 12px;
+	height: 24px;
+	border-radius: 0px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.btn.btn-primary.post {
+	width: 60px;
+	background-color: #4e69a2;
+	border-color: #435a8b #3c5488 #334c83;
+	border: 1px solid;
+	padding: 0px 16px 0px 16px;
+	margin-left: 5px;
+}
+.btn.frnds {
+	width: 104px;
+	background-color: #fff;
+	border-color: #cccccc #c5c6c8 #b6b7b9;
+  	color: #4e5665;
+	padding: 0px 8px 0px 8px;
+}
+.icon {
+	margin-right: 5px;
+	margin-bottom: 3px;
+	width: 16px;
+	height: 16px;
+}
+
+/*End Update Status*/
+
 .timeline-capsule{
 	background: none repeat scroll 0% 0% transparent;
 }
@@ -263,6 +488,8 @@ top: 220px;
 	word-wrap:break-word;
 	margin:5px;
 	background-color:white;
+	
+
 }
 .chat-pane{
 	padding: 0px;
@@ -344,9 +571,92 @@ top: 220px;
 	
 }
 #chat-user{
-	height: 433px;	
+	height: 468px;	
 	border: 1px solid #E9EAED;
 	padding-top: 10px;
+}
+
+
+.dropdown-menu > li > a:hover{/* for the list in dropdown hover color */
+	background-color:#003399;
+	color: #fff;
+	
+}
+.dropdown-menu{
+	z-index:2500;
+}
+.friends-pic-panel{
+	
+	cursor: pointer;
+}
+.edit-pic{
+visibility: hidden;
+opacity:0;
+color:#909090;
+	
+}
+
+.friends-pic-panel:hover .edit-pic{
+	display:inline-block;
+	visibility: visible;
+	opacity:1;
+}
+.frnds-panel-heading a{
+	font-size: 12px;
+	color:#909090;
+}
+.frnds-pic-size{
+	width:93px;
+	height:95px;
+}
+.frnds-panel-body {
+	padding:0px;
+}
+.frnds-panel-heading >a:first-child{
+	color:#000;
+}
+
+.frnds-panel-body  > div:last-child{
+	margin-bottom:5px;
+}
+.frnd-container
+{
+    height:95px;
+    width:98px;
+    position:relative;
+    margin-top:5px;
+    float:left;
+    margin-left:8px;
+  
+}
+
+.frnd-image{    
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    
+  
+    
+}
+.frnd-name{
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:10px;
+    font-weight:bold;
+    left:0px;
+    top:75px;
+    width:98px;
+    height:20px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7)) repeat scroll 0% 0% transparent;
+    padding-left:5px;
+   
+}
+.col-lg-5{
+	margin-left:0px;
+	padding-left:0px;
 }
 
 #chat-search{
@@ -435,4 +745,5 @@ top: 220px;
 	width:25px;
 
 }
+
 
