@@ -224,11 +224,10 @@ padding-right: 10px;
 	  right: 0;
 	  padding:0px;
 	  background-color:#000;
-	 
-	  color: #fff;
+	 color: #fff;
 	  margin-top:25px;
 	  margin-left:50px;
-	  font:18px;
+	  font:16px;
 	  visibility:hidden;
 	  opacity: 0; 
 	
@@ -241,9 +240,11 @@ padding-right: 10px;
   	
 }
 .camera-icon-div:hover{
-	transform:scale(0.8);
 	  border:1px solid #fff;
 	  background-color: #000;
+}
+.camera-icon-div:hover  #camera-icon{
+	transform:scale(0.8);
 }
 
 
@@ -254,9 +255,6 @@ padding-right: 10px;
 	font-size:12px;
 	word-wrap:break-word;
 	margin:5px;
-	 
-
-
 }
 
 .profile-camera-icon-div{
@@ -587,6 +585,7 @@ padding-right: 10px;
 	border: 1px solid #E9EAED;
 	margin-top:38px;
 	margin-left:1046px;
+	height:100%;
 	
 }
 .chat-image{
@@ -664,12 +663,12 @@ padding-right: 10px;
 }
 
 
-.dropdown-menu > li > a:hover{/* for the list in dropdown hover color */
+.coverpic-dropdown > li > a:hover{/* for the list in dropdown hover color */
 	background-color:#003399;
 	color: #fff;
 	
 }
-.dropdown-menu{
+.coverpic-dropdown{
 	z-index:2500;
 }
 .friends-pic-panel{
@@ -756,9 +755,10 @@ color:#909090;
 }
 
 .scroll-menu{
-	height:235px;
+	height:63.6%;
 	overflow-x:hidden;
 	overflow-y:hidden;
+	
 }
 .chat-div:HOVER {
 	background-color: #F6F7F8;
@@ -837,7 +837,6 @@ color:#909090;
 	background-image: url('../images/icon2.png');
     background-repeat: no-repeat;
     background-size: auto auto;
-	background-position: 0px -80px;
 	height: 31px;
 	margin-left: -3px;
 	top: 4px;
@@ -854,6 +853,9 @@ color:#909090;
 }
 .smiley-icon{
 	background-position: 0px -244px;
+}
+.clk-icon{
+	background-position: 0px -85px;
 }
 .location-icon{
 	background-position: 0px -166px;
@@ -877,7 +879,53 @@ color:#909090;
 .post ul{
 	list-style-type: none;
 	padding:10px;
+	padding-bottom:5px;
 }
-.post ul li:first-child{
+.post-header{
 	margin-bottom:15px;
+}
+.post-author-img{
+	float:left;
+	height:50px;
+	margin-right:5px;
+}
+.post-comment-ul{
+	background-color: #F6F7F8;
+}
+.post-cmnt{
+	display:inline-block;
+	position: relative;
+	width:100%;
+}
+.post-cmnt  img,.post-comment-ul img{
+	width:40px;
+	height:40px;
+	
+}
+.post-comment-ul li{
+border-top:0px solid #fff;
+padding-top:5px;
+}
+.post-comment-ul .divider{
+	border-top:1px solid  #d8dfea;
+}
+.post-cmnt  div span{
+	background-color: #fff;
+	height:40px;
+	position: absolute;
+	display: inline-block;
+	margin-left:5px;
+	border:1px solid  #d8dfea;
+}
+.post-cmnt span input{
+	border:none;
+	width:360px;
+	
+}
+.post-cmnt span a:last-child{
+	margin-top: -5px;
+}
+.post-time{
+	font-size: 12px; 
+	color: #9197A3
 }
