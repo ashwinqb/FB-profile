@@ -207,7 +207,7 @@
 	cursor:pointer;
 	padding: 0px;
 	border: 0px solid #909090;
-	
+		
 }
 
 #cover-pic-button-div{
@@ -219,7 +219,7 @@
 }
 #cover-pic-button-div > ul >.coverpic-dropdown{
 	z-index: 3500;
-	position:absolute;
+	position:relative;
 }
 #cover-pic-button-div  .btn{
 	
@@ -242,12 +242,26 @@ width: 80px;
 float: right; 
 padding-right: 10px;
 }
-
 .camera-icon-div{
   position:absolute;
   height:40px;
   width:200px;
   margin-top:40px;
+}
+.camera-icon-hover-description{
+	  position: relative;
+	  top:-54px;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  padding:0px;
+	  background-color:#000;
+	 color: #fff;
+	  margin-top:25px;
+	  margin-left:50px;
+	  font:16px;
+	  visibility:hidden;
+	  opacity: 0; 
 }
 #camera-icon{
 	background-image: url("../images/icons.png");
@@ -264,28 +278,12 @@ padding-right: 10px;
 	
 	
 }
-.camera-icon-hover-description{
-	  position: relative;
-	  top:-54px;
-	  bottom: 0;
-	  left: 0;
-	  right: 0;
-	  padding:0px;
-	  background-color:#000;
-	 color: #fff;
-	  margin-top:25px;
-	  margin-left:50px;
-	  font:16px;
-	  visibility:hidden;
-	  opacity: 0; 
-	
-}
+
 .camera-icon-div:hover  .camera-icon-hover-description{
 	
 	display:inline-block;
 	visibility:visible;
   	opacity: 1;
-  	
 }
 .camera-icon-div:hover{
 	  border:1px solid #fff;
