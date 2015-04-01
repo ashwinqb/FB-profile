@@ -1156,3 +1156,11 @@ padding:5px;
 	margin-left: 50px;
 
 }
+#button-search:hover{
+	background-color: white;
+	border-color: white;
+}
+#button-search{
+	background-color: white;
+	border-color: white;
+}
