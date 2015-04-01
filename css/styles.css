@@ -252,7 +252,6 @@
 }
 
 .cover-outer-div {
-	overflow: hidden;
 	margin-top: 36px;
 	cursor: pointer;
 	padding: 0px;
@@ -267,11 +266,6 @@
 	display: inline-block;
 }
 
-#cover-pic-button-div>ul>.coverpic-dropdown {
-	z-index: 3500;
-	position: relative;
-
-}
 
 #cover-pic-button-div  .btn {
 	line-height: 1.2;
@@ -632,11 +626,17 @@
 }
 
 .expand {
-	height: 30px;
-	width: 100%;
+	height: auto;
+	max-width: 100%;
+	min-width: 100%;
+	min-height:50px;
 	margin-top: 5px;
 	border: none;
 	outline: none;
+
+}
+#status-bottom-bar{
+	display:none;
 }
 
 .btn.btn-primary.post, .btn.frnds {
@@ -782,14 +782,17 @@
 }
 
 
-.coverpic-dropdown > li > a:hover, .post-header div.dropdown li > a:hover{/* for the list in dropdown hover color */
+#coverpic-dropdown > li > a:hover, .post-header div.dropdown li > a:hover{/* for the list in dropdown hover color */
 	background-color:#003399;
 	color: #fff;
 }
-.coverpic-dropdown{
-padding:5px;
-
+#coverpic-dropdown{
+	padding:5px;
+	position:absolute;
+	z-index:5000;
 }
+
+
 .friends-pic-panel{
 	cursor: pointer;
 }
