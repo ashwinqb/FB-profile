@@ -307,14 +307,16 @@ padding-right: 10px;
 
 .profile-camera-icon-div{
   position:absolute;
-  height:60px;
-  width:182px;
-  margin-top: 100px;
-  margin-left: -170px;
-  vertical-align: middle;
+  display:block;
+  height:55px;
+  width:148px;
+  margin-top:-60px;
+  margin-left: 5px;
+ vertical-align: middle;
+  z-index:1000;
   text-decoration: none;
   overflow: hidden;
-
+ 
 }
 
 #profile-pic:hover  .profile-camera-icon-hover-description{
@@ -331,12 +333,14 @@ padding-right: 10px;
 	transform:scale(0.8);
 	background-color: transparent;
 	text-decoration: none;
+	
 }
 
 #profile-pic:hover  #profile-camera-icon{
 	transform:scale(0.8);
 	margin-left: 10px;
 	margin-top: 16px;
+	
 }
 #profile-pic .profile-camera-icon-div:HOVER{
 	background-color:black;
@@ -359,7 +363,7 @@ padding-right: 10px;
 	margin-top:6px;
 	margin-left:20px;
 	margin-right:10px;
-	z-index: 10;
+	z-index: 1000;
 	opacity:.66;
 	text-decoration: none;
 	border-right: none;
@@ -380,7 +384,8 @@ padding-right: 10px;
 	  margin-left:50px;
 	  font:18px;
 	  visibility:hidden;
-	  opacity: 0; 
+	  opacity: 0;
+	  z-index: 100; 
 	  
 }
 
@@ -542,10 +547,13 @@ margin-top: 8px;
 
 	display: block;
 	position: absolute;
-	width: 82px;
+	width: 85px;
 	margin-top: 43px;
 	cursor: pointer; /* display the dropdown */
 	z-index: 5;
+	border: 1px solid #E9EAED;
+	
+	
 
 }
     
@@ -630,9 +638,10 @@ margin-top: 8px;
 	display:inline-block;
 	float: right;
 	position:fixed;
-	width: 194px;
+	
 	border: 1px solid #F6F7F8;
-	margin-top:38px;
+	margin-top:3.5%;
+	height:100%;
 	
 	
 }
@@ -679,6 +688,7 @@ margin-top: 8px;
 #chat-pane-games{
 	border-bottom: 1px solid #E9EAED;
 	margin-bottom: 5px;
+	height: 26%;
 }
 #chat-recommended{
 	border-bottom: 1px solid #E9EAED;
@@ -705,7 +715,7 @@ margin-top: 8px;
 	
 }
 #chat-user{
-	height: 430px;	
+	height: 63.7%;	
 	border: 1px solid #E9EAED;
 	padding-top: 10px;
 }
