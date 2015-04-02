@@ -46,6 +46,7 @@
 	position: relative;
 	display: inline-block;
 	float: left;
+	margin-bottom: 5px;
 }
 
 #searchbar-spec {
@@ -87,16 +88,25 @@
 	color: #999;
 }
 
-.small-font1 {
+.msg-font {
 	font-size: 13px;
+	color: #999;
 }
 
-.small-font2 {
+.time-font {
 	font-size: 9px;
+	color: #999;
 }
 
 .div-height {
 	height: 70px;
+}
+.privacy{
+	color: #3b5998;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 20px;
 }
 
 
@@ -109,29 +119,9 @@
 	background-color: #3b5998;
 }
 
-.mTop5 {
-	margin-top: 5px;
-}
 
-.mBottom5 {
-	margin-bottom: 5px;
-}
 
-.mLeft20 {
-	position: relative;
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 20px;
-	font-size: 13px
-}
 
-.mLeft220 {
-	position: relative;
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 220px;
-	font-size: 13px
-}
 
 .mLeft50 {
 	position: relative;
@@ -174,6 +164,7 @@
 	vertical-align: middle;
 	margin-left: 10px;
 	font-size: 20px;
+	margin-top: 5px;
 }
 
 .others {
@@ -187,10 +178,11 @@
 
 .icon-style {
 	color: #273d6d;
+	
 }
 
 .icon-style:HOVER {
-	color: #243251;
+	color: #243251;<<<<<<< HEAD
 }
 
 .icon-style:ACTIVE {
@@ -220,8 +212,8 @@
 	padding-left: 0;
 }
 
-#icon-active:AFTER {
-	background-color: white;
+#icon-active:FOCUS  {
+	color: white;
 }
 
 .messagemenu {
@@ -235,17 +227,18 @@
 
 .border-bottom {
 	position: relative;
-	margin-top: 5px;
-	margin-bottom: 5px;
 	border-bottom: 1px solid #ccc;
 	width: 100%;
 	padding: 0px;
 	height: 0px;
 }
+.border-bottom:HOVER {
+	background-color: #edf0f5;
+}
 
 .list-element-left {
 	position: relative;
-	margin-left: 5px;
+	padding-left: 5px;
 }
 
 .list-element-right {
@@ -332,7 +325,6 @@
 	width: 80px;
 	float: right;
 	padding-right: 10px;
-	padding-top: 4px;
 	
 }
 
@@ -392,7 +384,7 @@
 .camera-icon-div:hover  #camera-icon{
 	transform:scale(0.8);
 }
-
+<<<<<<< HEAD
 
 
 .div-style-template {
@@ -495,7 +487,7 @@
 	position:absolute;
 
 	display: inline-block;
-	width: auto;
+	width: auto;<<<<<<< HEAD
 	margin-top: -40px;
 	color: #fff;
 }
@@ -920,7 +912,7 @@
     height:20px;
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.7)) repeat scroll 0% 0% transparent;
     padding-left:5px;
-   
+   <<<<<<< HEAD
 }
 .col-lg-5{
 	margin-left:0px;
@@ -1237,6 +1229,33 @@
 	border-color: white;
 }
 
+.profile-button{
+	position: relative;
+	margin-left: 220px;
+	margin-top: 5px;
+	color: white;
+}
+.home-button{
+	color: white;
+	margin-top: 5px;
+}
+.dropdown-header{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	position: relative;
+	padding-left: 5px;
+}
+.dropdown-header-msg{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.add-friend{
+	position: relative;
+	margin-right: 5px;
+	margin-top: 16px;
+}
+
+
  div.dropdown ul li .posthover:HOVER{
     background-color: #3b5998;
   
@@ -1256,5 +1275,6 @@ span.post-text{
 	font:10px;
 	margin-left:10px;
 }
+
 
 
