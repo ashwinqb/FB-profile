@@ -4,35 +4,40 @@
         
     }
     #chat-pane-games{
-       visibility: hidden;
+     display: none !important;
  		
     }
      #chat-user{
-		visibility: hidden;
- 		
-    }
-     .chat-pane{
-       width:35px;
- 		
-    }
+		height:94%; 
+ 	    }
+ 	  .chat-text{
+ 	  	display: none;
+ 	  }
+ 	   .chat-text-right{
+ 	  	display: none;
+ 	  }
    .chat-pane:HOVER{
-       width: 194px;
        display: block;
     }
     .chat-pane:HOVER #chat-user{
         
         visibility: visible;
     }
-    .chat-pane:HOVER #chat-pane-games{
+    .chat-pane:HOVER .chat-text{
         
-        visibility: visible;
+         visibility: visible; 
+         display: inline-block;
+    }
+    .chat-pane:HOVER .chat-text-right{
+        
+         visibility: visible;
+         display: inline-block; 
     }
 }
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1100px) {
     .chat-pane{
         display:none !important;
- 		
-    }
+     }
      
 }
 
@@ -830,7 +835,7 @@
 }
 
 #chat-user{
- 	height: 68%;	 
+ 	 
 	cursor:pointer;
 	border: 1px solid #E9EAED;
 	padding-top: 10px;
@@ -942,7 +947,7 @@
 
 
 .scroll-menu{
-
+	height: 68%;	
 	overflow-x:hidden;
 	overflow-y:hidden;
 	
@@ -954,6 +959,7 @@
 }
 
 .scroll-menu:HOVER {
+	height: 68%;	
 	overflow-y: scroll;
 }
 
