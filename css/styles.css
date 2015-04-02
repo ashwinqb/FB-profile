@@ -1,12 +1,39 @@
 @media screen and (max-width: 1280px) {
     #ad-column-structure{
         display: none !important;
+        
+    }
+    #chat-pane-games{
+       visibility: hidden;
+ 		
+    }
+     #chat-user{
+		visibility: hidden;
+ 		
+    }
+     .chat-pane{
+       width:35px;
+ 		
+    }
+   .chat-pane:HOVER{
+       width: 194px;
+       display: block;
+    }
+    .chat-pane:HOVER #chat-user{
+        
+        visibility: visible;
+    }
+    .chat-pane:HOVER #chat-pane-games{
+        
+        visibility: visible;
     }
 }
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1120px) {
     .chat-pane{
         display:none !important;
+ 		
     }
+     
 }
 .nav-spec {
 	width: 35%;
