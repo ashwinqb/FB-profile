@@ -542,11 +542,16 @@
 	border-radius: 3px;
 }
 
-#timeline-tab-color {
+#timeline-tab{
 	color: #373E4D;
 	border-left-width: 1px;
 	border-left-style: solid;
 	border-left-color: #E9EAED;
+	cursor: default;
+}
+
+#timeline-tab:HOVER{
+	background-color: transparent;
 }
 
 #timeline-tab-triangle {
@@ -703,18 +708,15 @@
 
 .chat-pane {
 	padding: 0px;
-	padding-top: 5px;
-	display: inline-block;
-	float: right;
-
+	padding-top: 44px;
+	display: block;
+	z-index:0;
 	position:fixed;
-	
-	border: 1px solid #F6F7F8;
-	margin-top:3.5%;
+	max-width:194px;
+	border: 1px solid #dfe4ee;
 	height:100%;
-	
-	
-
+	overflow: hidden;
+	right: 0em;
 }
 
 .chat-image {
@@ -761,7 +763,7 @@
 }
 
 #chat-pane-games {
-	border-bottom: 1px solid #E9EAED;
+	border-bottom: 1px solid #dfe4ee;
 	margin-bottom: 5px;
 	height: 26%;
 }
@@ -777,7 +779,8 @@
 	height: 50px;
 	border-radius: 7px;
 	margin-bottom: 10px;
-	margin-left: 10px
+	margin-left: 10px;
+	cursor: pointer;
 }
 
 .chat-div {
@@ -789,8 +792,8 @@
 }
 
 #chat-user{
-	height: 63.7%;	
-
+ 	height: 68%;	 
+	cursor:pointer;
 	border: 1px solid #E9EAED;
 	padding-top: 10px;
 }
@@ -824,7 +827,7 @@
 	opacity: 1;
 }
 
-.frnds-panel-heading a {
+.frnds-panel- ing a {
 	font-size: 12px;
 	color: #909090;
 }
@@ -884,7 +887,14 @@
 #chat-search{
 
 	height: 25px;
-	margin-top: -8px
+	margin-top:0;
+	position: absolute;
+	bottom:.5em;
+	right: 0em;
+
+}
+#chat-search-form{
+	padding: 0px;
 }
 
 #chat-form {
@@ -894,7 +904,7 @@
 
 
 .scroll-menu{
-	height:235px;
+
 	overflow-x:hidden;
 	overflow-y:hidden;
 	
@@ -1149,7 +1159,7 @@
 	margin-bottom: 5px;
 	
 }
-.txts a {
+.copyright-texts a {
     color: #9197A3;
     font-size: 12px;
 }
@@ -1158,19 +1168,48 @@
     color: #9197A3;
 }
 
-.txts {
+.copyright-texts {
     margin-left: 5px;
 }
 
-#no {
+#copyright-icon {
     text-decoration: none;
 }
 
-.txts a:HOVER {
+.copyright-texts a:HOVER {
     color: #9197A3;
 }
 
 #timeline-structure {
 	margin-left: 50px;
-
 }
+
+#button-search:hover{
+	background-color: white;
+	border-color: white;
+}
+#button-search{
+	background-color: white;
+	border-color: white;
+}
+
+ div.dropdown ul li .posthover:HOVER{
+    background-color: #3b5998;
+  
+    
+}
+.posthover{
+	 border-top:1px solid #fff;
+}
+.status-dropdown-header{
+	background-color: #fff;
+}
+span.post-text{
+	color: #9197A3;
+	font:10px;
+	margin-left:10px;
+}
+.ok-btn-left{
+	margin-left:-18px
+}
+
