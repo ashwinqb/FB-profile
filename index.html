@@ -23,13 +23,16 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script type="text/javascript" href="js/script.js"></script>	
-	
-	
-	
+
+<script  src="js/script.js"></script>	
 
 
 
+
+
+
+<link rel="shortcut icon" type="image/x-icon" sizes="10x10"
+	href="images/favicon.ico">
 <link rel="stylesheet" type="text/css" href="fonts/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="js/bootstrap.css">
 <script src="js/bootstrap.min.js"></script>
@@ -38,7 +41,7 @@
 
 
 
-<title>Welcome to Facebook</title>
+<title>Mark Zuckerberg</title>
 
 
 
@@ -54,7 +57,7 @@
 
 
 	<!-- Full container -->
-	<div class="container-fluid background-color" >
+	<div class="container-fluid background-color">
 		<div class="row">
 
 
@@ -67,16 +70,15 @@
 							<div class="col-sm-1 ">
 								<a href="#" class="logo"> </a>
 							</div>
-							<div class=" nav-search mBottom5 nav-spec">
+							<div class=" nav-search nav-spec">
 
 								<form class="navbar-form search-bar " role="search"
 									data-toggle="collapse" data-target="#searchdemo">
 									<div class="input-group postsearch">
 										<span><input type="text" class="form-control  "
-											id="searchbar-spec"
-											placeholder="Search for people, places and things..."
-											name="q">
-											<button class="search-button btn btn-default" type="button">
+											id="searchbar-spec" value="Mark Zuckerberg" name="q">
+											<button id="button-search"
+												class="search-button btn btn-default" type="button">
 												<span class="gray-font glyphicon glyphicon-search"
 													aria-hidden="true"></span>
 											</button></span>
@@ -84,17 +86,16 @@
 								</form>
 
 							</div>
-							<span class=" mTop5"></span>
-							<button class="mLeft220 btn mTop5 bgcolor whitefont btn-hover"
+
+							<button class="profile-button btn bgcolor btn-hover"
 								type="button">
 								<img class="prof-pic-nav" src="images/mark2.jpg" /> <strong
 									class="whitefont"> Mark</strong>
 							</button>
-							<button class="btn mTop5 bgcolor whitefont btn-hover"
-								type="button">
-								<strong class="whitefont">Home</strong>
+							<button class="home-button btn bgcolor btn-hover" type="button">
+								<strong>Home</strong>
 							</button>
-							<div class="iconStyle mTop5">
+							<div class="iconStyle">
 								<span
 									class="icon-style glyphicon glyphicon-user dropdown-toggle mouse-pointer"
 									aria-hidden="true" id="dropdownMenu1" data-toggle="dropdown"
@@ -102,91 +103,103 @@
 								<ul
 									class="menu-dropdown-width dropdown-menu dropdown-menu-left mTop10 pull-right   "
 									role="menu" aria-labelledby="dropdownMenu1">
-									<li><strong class="mTop5 mBottom5 list-element-left ">People
-											you may know</strong></li>
-									
+									<li><strong class="dropdown-header ">People you
+											may know</strong></li>
+
 									<li class="border-bottom "></li>
 									<li>
-									<ul class="scroll-nav">
-									
-									<li class="list-element-left "><img class="frnd-req"
-										src="images/pf.jpeg" /><strong
-										class="mouse-pointer blue-font list-element-left "><a>Humphrey
-												Davey</a>
-											<button type="button"
-												class="btn btn-default btn-xs pull-right list-element-right ">
-												<span class="gray-font glyphicon glyphicon-user"><span
-													class="grayfont small-font glyphicon glyphicon-plus"></span></span><strong>
-													Add Friend</strong>
-											</button></strong></li>
-									<li class="border-bottom"></li>
-									<li class="list-element-left"><img class="frnd-req"
-										src="images/pf1.jpg" /><strong
-										class="mouse-pointer blue-font list-element-left"><a>Serena
-												Adams</a>
-											<button type="button"
-												class="btn btn-default btn-xs pull-right list-element-right ">
-												<span class="gray-font glyphicon glyphicon-user"><span
-													class="grayfont small-font glyphicon glyphicon-plus"></span></span><strong>
-													Add Friend</strong>
-											</button></strong></li>
-									<li class="border-bottom"></li>
-									<li class="list-element-left"><img class="frnd-req"
-										src="images/pf2.jpg" /><strong
-										class="mouse-pointer blue-font list-element-left"><a>Thomas
-												Jefferson</a>
-											<button type="button"
-												class="btn btn-default btn-xs pull-right list-element-right ">
-												<span class="gray-font glyphicon glyphicon-user"><span
-													class="grayfont small-font glyphicon glyphicon-plus"></span></span><strong>
-													Add Friend</strong>
-											</button></strong></li>
-									<li class="border-bottom"></li>
-									<li class="list-element-left"><img class="frnd-req"
-										src="images/pf3.jpg" /><strong
-										class="mouse-pointer blue-font list-element-left"><a>James
-												Madison</a>
-											<button type="button"
-												class="btn btn-default btn-xs pull-right list-element-right ">
-												<span class="gray-font glyphicon glyphicon-user"><span
-													class="grayfont small-font glyphicon glyphicon-plus"></span></span><strong>
-													Add Friend</strong>
-											</button></strong></li>
-									<li class="border-bottom"></li>
-									<li class="list-element-left"><img class="frnd-req"
-										src="images/pf4.jpg" /><strong
-										class="mouse-pointer blue-font list-element-left"><a>James
-												Monroe</a>
-											<button type="button"
-												class="btn btn-default btn-xs pull-right list-element-right ">
-												<span class="gray-font glyphicon glyphicon-user"><span
-													class="grayfont small-font glyphicon glyphicon-plus"></span></span><strong>
-													Add Friend</strong>
-											</button></strong></li>
-									<li class="border-bottom"></li>
-									<li class="list-element-left"><img class="frnd-req"
-										src="images/pf5.jpg" /><strong
-										class="mouse-pointer blue-font list-element-left"><a>John
-												Quincy Adams</a>
-											<button type="button"
-												class="btn btn-default btn-xs pull-right list-element-right ">
-												<span class="gray-font glyphicon glyphicon-user"><span
-													class="grayfont small-font glyphicon glyphicon-plus"></span></span><strong>
-													Add Friend</strong>
-											</button></strong></li>
-									<li class="border-bottom"></li>
-									<li class="list-element-left"><img class="frnd-req"
-										src="images/pf5.jpg" /><strong
-										class="mouse-pointer blue-font list-element-left"><a>John
-												Quincy Adams</a>
-											<button type="button"
-												class="btn btn-default btn-xs pull-right list-element-right ">
-												<span class="gray-font glyphicon glyphicon-user"><span
-													class="grayfont small-font glyphicon glyphicon-plus"></span></span><strong>
-													Add Friend</strong>
-											</button></strong></li>
-									<li class="border-bottom"></li>
-									</ul></li>
+										<ul class="scroll-nav">
+
+											<li class="list-element-left "><img class="frnd-req"
+												src="images/pf.jpeg" /><strong
+												class="mouse-pointer blue-font list-element-left "><a>Humphrey
+														Davey</a>
+													<button type="button"
+														class="btn btn-default btn-xs pull-right add-friend ">
+														<span class="gray-font glyphicon glyphicon-user"><span
+															class="grayfont small-font glyphicon glyphicon-plus"></span></span><strong>
+															Add Friend</strong>
+													</button></strong></li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left"><img class="frnd-req"
+												src="images/pf1.jpg" /><strong
+												class="mouse-pointer blue-font list-element-left"><a>Serena
+														Adams</a>
+													<button type="button"
+														class="btn btn-default btn-xs pull-right add-friend ">
+														<span class="gray-font glyphicon glyphicon-user"><span
+															class="grayfont small-font glyphicon glyphicon-plus"></span></span><strong>
+															Add Friend</strong>
+													</button></strong></li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left"><img class="frnd-req"
+												src="images/pf2.jpg" /><strong
+												class="mouse-pointer blue-font list-element-left"><a>Thomas
+														Jefferson</a>
+													<button type="button"
+														class="btn btn-default btn-xs pull-right add-friend ">
+														<span class="gray-font glyphicon glyphicon-user"><span
+															class="grayfont small-font glyphicon glyphicon-plus"></span></span><strong>
+															Add Friend</strong>
+													</button></strong></li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left"><img class="frnd-req"
+												src="images/pf3.jpg" /><strong
+												class="mouse-pointer blue-font list-element-left"><a>James
+														Madison</a>
+													<button type="button"
+														class="btn btn-default btn-xs pull-right add-friend ">
+														<span class="gray-font glyphicon glyphicon-user"><span
+															class="grayfont small-font glyphicon glyphicon-plus"></span></span><strong>
+															Add Friend</strong>
+													</button></strong></li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left"><img class="frnd-req"
+												src="images/pf4.jpg" /><strong
+												class="mouse-pointer blue-font list-element-left"><a>James
+														Monroe</a>
+													<button type="button"
+														class="btn btn-default btn-xs pull-right add-friend ">
+														<span class="gray-font glyphicon glyphicon-user"><span
+															class="grayfont small-font glyphicon glyphicon-plus"></span></span><strong>
+															Add Friend</strong>
+													</button></strong></li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left"><img class="frnd-req"
+												src="images/pf5.jpg" /><strong
+												class="mouse-pointer blue-font list-element-left"><a>John
+														Quincy Adams</a>
+													<button type="button"
+														class="btn btn-default btn-xs pull-right add-friend ">
+														<span class="gray-font glyphicon glyphicon-user"><span
+															class="grayfont small-font glyphicon glyphicon-plus"></span></span><strong>
+															Add Friend</strong>
+													</button></strong></li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left "><img class="frnd-req"
+												src="images/pf.jpeg" /><strong
+												class="mouse-pointer blue-font list-element-left "><a>Humphrey
+														Davey</a>
+													<button type="button"
+														class="btn btn-default btn-xs pull-right add-friend ">
+														<span class="gray-font glyphicon glyphicon-user"><span
+															class="grayfont small-font glyphicon glyphicon-plus"></span></span><strong>
+															Add Friend</strong>
+													</button></strong></li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left"><img class="frnd-req"
+												src="images/pf5.jpg" /><strong
+												class="mouse-pointer blue-font list-element-left"><a>John
+														Quincy Adams</a>
+													<button type="button"
+														class="btn btn-default btn-xs pull-right add-friend ">
+														<span class="gray-font glyphicon glyphicon-user"><span
+															class="grayfont small-font glyphicon glyphicon-plus"></span></span><strong>
+															Add Friend</strong>
+													</button></strong></li>
+											<li class="border-bottom"></li>
+										</ul>
+									</li>
 									<li><span class="text-center blue-font mouse-pointer">View
 											all</span></li>
 
@@ -197,7 +210,7 @@
 
 
 							</div>
-							<div class="iconStyle mTop5">
+							<div class="iconStyle">
 								<span
 									class="icon-style glyphicon glyphicon-comment dropdown-toggle mouse-pointer"
 									aria-hidden="true" id="dropdownMenu1" data-toggle="dropdown"
@@ -205,89 +218,100 @@
 								<ul
 									class="menu-dropdown-width dropdown-menu dropdown-menu-left mTop10 pull-right   "
 									role="menu" aria-labelledby="dropdownMenu1">
-									<li><strong class="mTop5 mBottom5 list-element-left mouse-pointer ">Inbox(10)</strong><span class="others mouse-pointer">  Other</span><span 
-										class= "notification-menu-top mouse-pointer"><a>Mark All as Read </a>.<a>Send a new message</a></span></li>
+									<li><strong
+										class="dropdown-header-msg list-element-left mouse-pointer ">Inbox(10)</strong><span
+										class="others mouse-pointer"> Other</span><span
+										class="notification-menu-top mouse-pointer"><a>Mark
+												All as Read </a>.<a>Send a new message</a></span></li>
 									<li class="border-bottom "></li>
-									<li >
-									<ul class= "scroll-nav"> 
-									<li class="list-element-left li-hover-msg mouse-pointer " >
-									<div class="div-height">
-											<span><img class="image-spec1" src="images/pf16.jpg"></img><span
-												class=" text-left black-font mouse-pointer"><strong>Michael
-														Phelps</strong></span></span>
-											<p>
-												<span class="small-font1"><span
-													class="gray-font glyphicon glyphicon-share-alt"></span><span
-													class="gray-font"> How are you?</span><div class="gray-font small-font2">11:30</div></span>
-											</p>
-										</div></li>
-									<li class="border-bottom"></li>
-									<li class="list-element-left li-hover-msg mouse-pointer"><div
-											class="div-height">
-											<span><img class="image-spec1" src="images/pf14.jpg"></img><span
-												class="text-left black-font mouse-pointer"><strong>Paul
-														David</strong></span></span>
-											<p>
-												<span class="small-font1"><span
-													class="gray-font glyphicon glyphicon-ok"></span><span
-													class="gray-font"> ha.. ha.. :)</span><div class="gray-font small-font2">Mon</div></span>
-											</p>
-										</div></li>
-									<li class="border-bottom"></li>
-									<li class="list-element-left li-hover-msg mouse-pointer"><div
-											class="div-height">
-											<span><img class="image-spec1" src="images/pf10.jpg"></img><span
-												class="text-left black-font mouse-pointer"><strong>Michael
-														Clarke</strong></span></span>
-											<p>
-												<span class="small-font1"><span
-													class="gray-font glyphicon glyphicon-ok"></span><span
-													class="gray-font"> Good morning</span><div class="gray-font small-font2">Wed</div></span>
-											</p>
-										</div></li>
-									<li class="border-bottom"></li>
-									<li class="list-element-left li-hover-msg mouse-pointer"><div
-											class="div-height">
-											<span><img class="image-spec1" src="images/pf13.jpg"></img><span
-												class="text-left black-font mouse-pointer"><strong>Ann
-														David</strong></span></span>
-											<p>
-												<span class="small-font1"><span
-													class="gray-font glyphicon glyphicon-share-alt"></span><span
-													class="gray-font"> How was your day?</span><div class="gray-font small-font2">Thur</div></span>
-											</p>
-										</div></li>
-									<li class="border-bottom "></li>
-									<li class="list-element-left li-hover-msg mouse-pointer"><div
-											class="div-height">
-											<span><img class="image-spec1" src="images/pf17.jpg"></img><span
-												class="text-left black-font mouse-pointer"><strong>Sean
-														Williams</strong></span></span>
-											<p>
-												<span class="small-font1"><span
-													class="gray-font glyphicon glyphicon-share-alt"></span><span
-													class="gray-font"> Finished work?</span><div class="gray-font small-font2">Fri</div></span>
-											</p>
-										</div></li>
-									<li class="border-bottom"></li>
-									<li class="list-element-left li-hover-msg mouse-pointer"><div
-											class="div-height">
-											<span><img class="image-spec1" src="images/pf15.jpg"></img><span
-												class="text-left black-font mouse-pointer"><strong>Jin-Yung</strong></span></span>
-											<p>
-												<span class="small-font1"><span
-													class="gray-font glyphicon glyphicon-ok"></span><span
-													class="gray-font"> poda #@$%</span><div class="gray-font small-font2">17 March</div></span>
-											</p>
-										</div></li>
-									<li class="border-bottom"></li></ul>
+									<li>
+										<ul class="scroll-nav">
+											<li class="list-element-left li-hover-msg mouse-pointer ">
+												<div class="div-height">
+													<span><img class="image-spec1" src="images/pf16.jpg"></img><span
+														class=" text-left black-font mouse-pointer"><strong>Michael
+																Phelps</strong></span></span>
+													<p>
+														<span class="msg-font"><span
+															class="glyphicon glyphicon-share-alt"></span><span>
+																How are you?</span>
+														<div class="time-font">11:30</div></span>
+													</p>
+												</div>
+											</li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left li-hover-msg mouse-pointer"><div
+													class="div-height">
+													<span><img class="image-spec1" src="images/pf14.jpg"></img><span
+														class="text-left black-font mouse-pointer"><strong>Paul
+																David</strong></span></span>
+													<p>
+														<span class="msg-font"><span
+															class="glyphicon glyphicon-ok"></span><span> ha..
+																ha.. :)</span>
+														<div class="time-font">Mon</div></span>
+													</p>
+												</div></li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left li-hover-msg mouse-pointer"><div
+													class="div-height">
+													<span><img class="image-spec1" src="images/pf10.jpg"></img><span
+														class="text-left black-font mouse-pointer"><strong>Michael
+																Clarke</strong></span></span>
+													<p>
+														<span class="msg-font"><span
+															class="glyphicon glyphicon-ok"></span><span> Good
+																morning</span>
+														<div class="time-font">Wed</div></span>
+													</p>
+												</div></li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left li-hover-msg mouse-pointer"><div
+													class="div-height">
+													<span><img class="image-spec1" src="images/pf13.jpg"></img><span
+														class="text-left black-font mouse-pointer"><strong>Ann
+																David</strong></span></span>
+													<p>
+														<span class="msg-font"><span
+															class="glyphicon glyphicon-share-alt"></span><span>
+																How was your day?</span>
+														<div class="time-font">Thur</div></span>
+													</p>
+												</div></li>
+											<li class="border-bottom "></li>
+											<li class="list-element-left li-hover-msg mouse-pointer"><div
+													class="div-height">
+													<span><img class="image-spec1" src="images/pf17.jpg"></img><span
+														class="text-left black-font mouse-pointer"><strong>Sean
+																Williams</strong></span></span>
+													<p>
+														<span class="msg-font"><span
+															class="glyphicon glyphicon-share-alt"></span><span>
+																Finished work?</span>
+														<div class="time-font">Fri</div></span>
+													</p>
+												</div></li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left li-hover-msg mouse-pointer"><div
+													class="div-height">
+													<span><img class="image-spec1" src="images/pf15.jpg"></img><span
+														class="text-left black-font mouse-pointer"><strong>Jin-Yung</strong></span></span>
+													<p>
+														<span class="msg-font"><span
+															class="gglyphicon glyphicon-ok"></span><span
+															class="gray-font"> poda #@$%</span>
+														<div class="time-font">17 March</div></span>
+													</p>
+												</div></li>
+											<li class="border-bottom"></li>
+										</ul>
 									<li><span
 										class="text-center blue-font mouse-pointer li-hover-msg mouse-pointer">View
 											all</span></li>
 
 								</ul>
 							</div>
-							<div class="iconStyle mTop5">
+							<div class="iconStyle">
 								<span
 									class="icon-style glyphicon glyphicon-globe dropdown-toggle mouse-pointer"
 									aria-hidden="true" id="dropdownMenu1" data-toggle="dropdown"
@@ -295,96 +319,98 @@
 								<ul
 									class="menu-dropdown-width dropdown-menu dropdown-menu-left mTop10 pull-right  "
 									role="menu" aria-labelledby="dropdownMenu1">
-									<li><strong class="mTop5 mBottom5 list-element-left ">Notifications</strong><span 
-										class= "notification-menu-top mouse-pointer"><a>Mark as
-											Read </a>.<a>Settings</a></span></li>
+									<li><strong class="dropdown-header-msg list-element-left ">Notifications</strong><span
+										class="notification-menu-top mouse-pointer"><a>Mark
+												as Read </a>.<a>Settings</a></span></li>
 									<li class="border-bottom "></li>
 									<li>
-									<ul class= "scroll-nav"><li class="list-element-left li-hover-not mouse-pointer"><div
-											class="div-height">
-											<span><img class="image-spec1" src="images/pf1.jpg"></img><img
-												class="image-spec2" src="images/pf2.jpg"></img><span
-												class="text-left black-font mouse-pointer"><strong>Ann
-														David</strong> and 20 other people like a profile picture you are
-													tagged in.</span></span>
-											<p>
-												<span><img class="img-like" src="images/like.png"></img><span
-													class="gray-font"> about an hour ago</span></span>
-											</p>
-										</div></li>
-									<li class="border-bottom"></li>
-									<li class="list-element-left li-hover-not mouse-pointer"><div
-											class="div-height">
-											<span><img class="image-spec1" src="images/pf3.jpg"></img><img
-												class="image-spec2" src="images/pf4.jpg"></img><span
-												class="text-left black-font mouse-pointer"><strong>Ann
-														David</strong> and 20 other people like a profile picture you are
-													tagged in.</span></span>
-											<p>
-												<span><img class="img-like" src="images/like.png"></img><span
-													class="gray-font"> about an hour ago</span></span>
-											</p>
-										</div></li>
-									<li class="border-bottom"></li>
-									<li class="list-element-left li-hover-not mouse-pointer"><div
-											class="div-height">
-											<span><img class="image-spec1" src="images/pf5.jpg"></img><img
-												class="image-spec2" src="images/pf10.jpg"></img><span
-												class="text-left black-font mouse-pointer"><strong>Ann
-														David</strong> and 20 other people like a profile picture you are
-													tagged in.</span></span>
-											<p>
-												<span><img class="img-like" src="images/like.png"></img><span
-													class="gray-font"> about an hour ago</span></span>
-											</p>
-										</div></li>
-									<li class="border-bottom"></li>
-									<li class="list-element-left li-hover-not mouse-pointer"><div
-											class="div-height">
-											<span><img class="image-spec1" src="images/pf8.jpg"></img><img
-												class="image-spec2" src="images/pf9.jpg"></img><span
-												class="text-left black-font mouse-pointer"><strong>Ann
-														David</strong> and 20 other people like a profile picture you are
-													tagged in.</span></span>
-											<p>
-												<span><img class="img-like" src="images/like.png"></img><span
-													class="gray-font"> about an hour ago</span></span>
-											</p>
-										</div></li>
-									<li class="border-bottom"></li>
-									<li class="list-element-left li-hover-not mouse-pointer"><div
-											class="div-height">
-											<span><img class="image-spec1" src="images/pf19.jpg"></img><img
-												class="image-spec2" src="images/pf18.jpg"></img><span
-												class="text-left black-font mouse-pointer"><strong>Ann
-														David</strong> and 20 other people like a profile picture you are
-													tagged in.</span></span>
-											<p>
-												<span><img class="img-like" src="images/like.png"></img><span
-													class="gray-font"> about an hour ago</span></span>
-											</p>
-										</div></li>
-									<li class="border-bottom"></li>
-									<li class="list-element-left li-hover-not mouse-pointer"><div
-											class="div-height">
-											<span><img class="image-spec1" src="images/pf15.jpg"></img><img
-												class="image-spec2" src="images/pf17.jpg"></img><span
-												class="text-left black-font mouse-pointer"><strong>Ann
-														David</strong> and 20 other people like a profile picture you are
-													tagged in.</span></span>
-											<p>
-												<span><img class="img-like" src="images/like.png"></img><span
-													class="gray-font"> about an hour ago</span></span>
-											</p>
-										</div></li>
-										</ul></li>
+										<ul class="scroll-nav">
+											<li class="list-element-left li-hover-not mouse-pointer"><div
+													class="div-height">
+													<span><img class="image-spec1" src="images/pf1.jpg"></img><img
+														class="image-spec2" src="images/pf2.jpg"></img><span
+														class="text-left black-font mouse-pointer"><strong>Ann
+																David</strong> and 20 other people like a profile picture you are
+															tagged in.</span></span>
+													<p>
+														<span><img class="img-like" src="images/like.png"></img><span
+															class="msg-font"> about an hour ago</span></span>
+													</p>
+												</div></li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left li-hover-not mouse-pointer"><div
+													class="div-height">
+													<span><img class="image-spec1" src="images/pf3.jpg"></img><img
+														class="image-spec2" src="images/pf4.jpg"></img><span
+														class="text-left black-font mouse-pointer"><strong>Ann
+																David</strong> and 20 other people like a profile picture you are
+															tagged in.</span></span>
+													<p>
+														<span><img class="img-like" src="images/like.png"></img><span
+															class="msg-font"> about an hour ago</span></span>
+													</p>
+												</div></li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left li-hover-not mouse-pointer"><div
+													class="div-height">
+													<span><img class="image-spec1" src="images/pf5.jpg"></img><img
+														class="image-spec2" src="images/pf10.jpg"></img><span
+														class="text-left black-font mouse-pointer"><strong>Ann
+																David</strong> and 20 other people like a profile picture you are
+															tagged in.</span></span>
+													<p>
+														<span><img class="img-like" src="images/like.png"></img><span
+															class="msg-font"> about an hour ago</span></span>
+													</p>
+												</div></li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left li-hover-not mouse-pointer"><div
+													class="div-height">
+													<span><img class="image-spec1" src="images/pf8.jpg"></img><img
+														class="image-spec2" src="images/pf9.jpg"></img><span
+														class="text-left black-font mouse-pointer"><strong>Ann
+																David</strong> and 20 other people like a profile picture you are
+															tagged in.</span></span>
+													<p>
+														<span><img class="img-like" src="images/like.png"></img><span
+															class="msg-font"> about an hour ago</span></span>
+													</p>
+												</div></li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left li-hover-not mouse-pointer"><div
+													class="div-height">
+													<span><img class="image-spec1" src="images/pf19.jpg"></img><img
+														class="image-spec2" src="images/pf18.jpg"></img><span
+														class="text-left black-font mouse-pointer"><strong>Ann
+																David</strong> and 20 other people like a profile picture you are
+															tagged in.</span></span>
+													<p>
+														<span><img class="img-like" src="images/like.png"></img><span
+															class="msg-font"> about an hour ago</span></span>
+													</p>
+												</div></li>
+											<li class="border-bottom"></li>
+											<li class="list-element-left li-hover-not mouse-pointer"><div
+													class="div-height">
+													<span><img class="image-spec1" src="images/pf15.jpg"></img><img
+														class="image-spec2" src="images/pf17.jpg"></img><span
+														class="text-left black-font mouse-pointer"><strong>Ann
+																David</strong> and 20 other people like a profile picture you are
+															tagged in.</span></span>
+													<p>
+														<span><img class="img-like" src="images/like.png"></img><span
+															class="msg-font"> about an hour ago</span></span>
+													</p>
+												</div></li>
+										</ul>
+									</li>
 									<li class="border-bottom"></li>
 									<li><span class="text-center blue-font mouse-pointer">View
 											all</span></li>
 
 								</ul>
 							</div>
-							<div class="iconStyle mTop5">
+							<div class="iconStyle">
 								<span
 									class="icon-style glyphicon glyphicon-briefcase dropdown-toggle mouse-pointer"
 									aria-hidden="true" id="dropdownMenu1" data-toggle="dropdown"
@@ -392,7 +418,7 @@
 								<ul class="dropdown-menu dropdown-menu-left mTop10 pull-right"
 									role="menu" aria-labelledby="dropdownMenu1">
 									<div>
-										<div class="stlylingDiv bluefont mLeft20 ">
+										<div class="privacy ">
 											<b> Privacy Shortcuts</b><span
 												class="glyphicon glyphicon-search search-icon mouse-pointer"></span>
 										</div>
@@ -422,12 +448,12 @@
 											bothering me? <span class="caret"></span></a></li>
 									<li role="presentation" class="divider"></li>
 									<div>
-										<a class="mLeft50 mouse-pointer">See More Settings</a> or visit<a class="mouse-pointer">
-											Privacy Basics</a>
+										<a class="mLeft50 mouse-pointer">See More Settings</a> or
+										visit<a class="mouse-pointer"> Privacy Basics</a>
 									</div>
 								</ul>
 							</div>
-							<div class="iconStyle caret-spec mTop5 mouse-pointer">
+							<div class="iconStyle caret-spec mouse-pointer">
 								<span class="icon-style caret-spec caret dropdown-toggle"
 									aria-hidden="true" id="dropdownMenu1" data-toggle="dropdown"
 									aria-expanded="true"></span>
@@ -445,7 +471,7 @@
 						</div>
 					</nav>
 
-					
+
 				</div>
 
 			</div>
@@ -454,10 +480,10 @@
 			<!-- /Bar at the top (vishnu)-->
 
 
-</div>
+		</div>
 
 
-	<!-- the main container -->
+		<!-- the main container -->
 		<div class="row ">
 			
 			<div class="col-xs-10 col-md-10 col-lg-10 "id="timeline-structure">
@@ -471,15 +497,16 @@
 							<a id="camera-icon"></a>
 							<p class="camera-icon-hover-description">Update cover photo</p>
 						</div>
+						
 						<div id="cover-pic-button-div">
 							<a class="btn btn-default btn-sm" href="#" role="button">Update Info</a>
 							<div class="btn-group" role="group" aria-label="...">
-								<a type="button" class="btn btn-default btn-sm" title="See your activity on Facebook">View Activity Log</a>
-								<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"aria-expanded="false">...</button>
-									<ul  class="dropdown-menu coverpic-dropdown" role="menu" >
-										<li role="presentation">View As</li>
-										<li role="presentation">Timeline Setting</li>
-										<li role="presentation">Add a badge to your site</li>
+								<button type="button" class="btn btn-default btn-sm " title="See your activity on Facebook">View Activity Log</button>
+								<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">...</button>
+									<ul  class="dropdown-menu " id="coverpic-dropdown" role="menu" >
+										<li role="presentation"><a href="#">View As</a></li>
+										<li role="presentation"><a href="#">Timeline Setting</a></li>
+										<li role="presentation"><a href="#">Add a badge to your site</a></li>
 									</ul>
 								
 							</div>
@@ -511,7 +538,7 @@
 
 
 					<ul>
-						<li><a id="timeline-tab-color" href="#"> Timeline</a></li>
+						<li><a id="timeline-tab" href="#"> Timeline</a></li>
 						<li><a href="#">About</a></li>
 						<li><a href="#">Friends <span id="friends-count">1,070</span></a></li>
 						<li><a href="#">Photos</a></li>
@@ -621,39 +648,39 @@
 					  <div class="panel-body frnds-panel-body ">
 					   
 						<div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
-						    <p class="frnd-name">Aswin Thomson</p>
+						    <img src="images/Ashwin.jpg" class="frnd-image "/>
+						    <p class="frnd-name">Ashwin Thomson</p>
 						</div>
 						<div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/Manu.jpg" class="frnd-image "/>
 						    <p class="frnd-name">Manu Prasad</p>
 						</div>
 						<div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/Vishnu.jpg" class="frnd-image "/>
 						    <p class="frnd-name">Vishnu Vijay</p>
 						</div>
 						<div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/Lorry.jpg" class="frnd-image "/>
 						    <p class="frnd-name">Lawrence Moraira</p>
 						 </div>
 						<div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/Arjun.jpg" class="frnd-image "/>
 						    <p class="frnd-name">Arjun Kizhikkayil</p>
 						 </div>
 						 <div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/Sreehari.jpg" class="frnd-image "/>
 						    <p class="frnd-name">Sreehari Anil</p>
 						 </div>
 						 <div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/Vinay.jpg" class="frnd-image "/>
 						    <p class="frnd-name">Vinay Edadan</p>
 						 </div>
 						 <div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/pf1.jpg" class="frnd-image "/>
 						    <p class="frnd-name">Karthika M</p>
 						 </div>
 						  <div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/pf6.png" class="frnd-image "/>
 						    <p class="frnd-name">Varshah Sambath</p>
 						 </div>
 						 
@@ -672,32 +699,32 @@
 					  <div class="panel-body frnds-panel-body ">
 					   
 						<div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/Vinay.jpg" class="frnd-image "/>
 						</div>
 						<div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/Sreehari.jpg" class="frnd-image "/>
 						 </div>
 						<div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/Ashwin.jpg" class="frnd-image "/>
 						 </div>
 						<div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/Arjun.jpg" class="frnd-image "/>
 						 </div>
 						<div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/Lorry.jpg" class="frnd-image "/>
 						  </div>
 						 <div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/Vishnu.jpg" class="frnd-image "/>
 						    <p class="frnd-name">
 						</div>
 						 <div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/pf6.png" class="frnd-image "/>
 						 </div>
 						 <div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/Manu.jpg" class="frnd-image "/>
 						 </div>
 						  <div class="frnd-container">
-						    <img src="images/mark.jpeg" class="frnd-image "/>
+						    <img src="images/pf1.jpg" class="frnd-image "/>
 						  </div>
 						 
 					  </div>
@@ -713,23 +740,42 @@
 
 				<!-- Update Status Lawrence-->
 				<div class="panel panel-default timeline-div status-panel ">
-					<ul class="nav nav-tabs nav-justified" role="tablist">
-       					<li><a href="#"><img src="images/status.png" class="icon">Status</a></li>
+					<ul class="nav nav-tabs" role="tablist">
+       					<li><a href="#" class="active"><img src="images/status.png" class="icon">Status</a></li>
        					<li><a href="#"><img src="images/photo.png" class="icon">Photo/Video</a></li>
         				<li><a href="#"><img src="images/life.png" class="icon">Life Event</a></li>
         			</ul>
-        			<textarea type="textarea" class="expand" data-toggle="collapse" data-target="#demo" placeholder="What's on your mind?"></textarea>
-            			<div id="demo" class="panel-body collapse status-bottombar">
+        			<textarea type="textarea" id="textarea" class="expand " placeholder="What's on your mind?"></textarea>
+            			<div id="status-bottom-bar" class="panel-body  status-bottombar">
         				<a class="icon-image camera-icon" title="Add photos to your post"></a >
 						<a class="icon-image  user-icon" title="Tag people in your post" ></a>
 						<a class="icon-image  smiley-icon" title="Add what you're doing or how you are feeling"></a>
 						<a class="icon-image  location-icon" title="Add location to your post" ></a>
 						<a class="icon-image  clk-icon" title="Set date and time of your post" ></a>
-        				<button class="btn btn-primary pull-right post" type="button">Post</button>
-        				<button class="btn pull-right frnds" type="button">
-        					<span class="glyphicon glyphicon-user" aria-hidden="true"></span>Friends
-        					<span class="caret"></span>
-        				</button>
+        				<div class="dropdown pull-right">
+        						<button class="btn btn-primary pull-right post" type="button">Post</button>
+                                <button class="btn btn-default dropdown-toggle btn-xs" type="button" id="menu1" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-user"></span>Friends <span
+                                        class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu " role="menu" aria-labelledby="menu1">
+                                    <li role="presentation " class="dropdown-header status-dropdown-header" >Who should see this?</li>
+                                    <li role="presentation" class="posthover"><a class="posthover"
+                                        role="menuitem" tabindex="-1" href="#"><span
+                                            class="glyphicon glyphicon-globe "></span> <strong>Public</strong>
+                                            <br> <span class="post-text">Anyone on facebook</span> </a></li>
+                                    <li role="presentation" class="posthover"><a class="posthover"
+                                        role="menuitem" tabindex="-1" href="#">
+                                        <span class="glyphicon glyphicon-ok ok-btn-left"></span>
+                                        <span class="glyphicon glyphicon-user"></span> <strong>Friends</strong>
+                                            <br> <span class="post-text">Your friends on the
+                                                facebook</span> </a></li>
+								</ul>
+
+
+                            </div>
+
+
   					</div>
 				</div>
 				<!-- /Update Status-->	
@@ -780,7 +826,7 @@
 		                    <div class="form-group ">
 							<img src="images/mark2.jpg"   >
 							<span>
-								<input type="text" placeholder="Write a comment....." >
+								<input type="text" placeholder=" Write a comment....." >
 								<a class=" icon-image camera-icon "></a>
 								<a class=" icon-image clk-icon"></a>
 							</span>
@@ -805,7 +851,7 @@
 				
 				<div  >
 					<span id="adv-heading "> <strong>Sponsered</strong>
-						<a id="adv-left-heading" >see all</a></span>
+						<a id="adv-left-heading" href=# >see all</a></span>
 					<div id="adv-div">
 						<img id="adv-image" alt="adv" src="images/amazon1.png"
 						> <a>Puma mens shoes
@@ -823,12 +869,12 @@
 						at flat 70% off </a>
 					</div>
 				</div>
-				<div class="txts">
+				<div class="copyright-texts">
                     <a href="">English (UK)</a> <span id="dot-color">·</span><a href="">
                         Privacy </a> <span id="dotclr">·</span><a href="">Terms</a><span
                         id="dot-color">·</span><a href="">Cookies</a><span id="dot-color">·</span><br />
                     <a href="">Advertising </a><span id="dot-color">·</span><a href="">More</a>
-                    <br /> <a id="no">Facebook ©
+                    <br /> <a id="copyright-icon">Facebook ©
 2015</a>
                 </div>
                 <!-- /Grey Txt -->
@@ -839,12 +885,12 @@
 
 			<!--  chat division -->
 
-			<div class="chat-pane clearfix ">
+			<div class="chat-pane clearfix">
 
 			<div id="chat-pane-games">
 				<div class="chat-pane-heading">
 						<span> <strong>YOUR
-								GAMES</strong> <a id="chat-pane-heading-right"
+								GAMES</strong> <a id="chat-pane-heading-right" href=#
 							>MORE</a>
 						</span>
 						</div>
@@ -859,7 +905,7 @@
 					</div>
 					<div class="chat-pane-heading">
 						<span> <strong>RECOMMENDED
-								GAMES</strong> <a id="chat-pane-heading-right"
+								GAMES</strong> <a id="chat-pane-heading-right" href=#
 							>MORE</a>
 						</span>
 						</div>
@@ -1000,9 +1046,9 @@
 					</div>
 
 				</div>
-				<div>
+				
 						<div id="chat-search">
-							<form class="navbar-form" role="search" style="padding: 0px">
+							<form class="navbar-form" role="search" id="chat-search-form">
 								<div class="input-group col-sm-12 col-md-12 col-lg-12">
 									<input type="text" class="form-control"id="chat-form" placeholder="Search"
 										name="q">
@@ -1017,7 +1063,7 @@
 								</div>
 							</form>
 						</div>
-					</div>
+					
 				
 
 			</div>
@@ -1042,4 +1088,3 @@
 
 </body>
 </html>
-

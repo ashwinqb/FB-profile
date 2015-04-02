@@ -1,8 +1,52 @@
+@media screen and (max-width: 1280px) {
+    #ad-column-structure{
+        display: none !important;
+        
+    }
+    #chat-pane-games{
+     display: none !important;
+ 		
+    }
+     #chat-user{
+		height:94%; 
+ 	    }
+ 	  .chat-text{
+ 	  	display: none;
+ 	  }
+ 	   .chat-text-right{
+ 	  	display: none;
+ 	  }
+   .chat-pane:HOVER{
+       display: block;
+    }
+    .chat-pane:HOVER #chat-user{
+        
+        visibility: visible;
+    }
+    .chat-pane:HOVER .chat-text{
+        
+         visibility: visible; 
+         display: inline-block;
+    }
+    .chat-pane:HOVER .chat-text-right{
+        
+         visibility: visible;
+         display: inline-block; 
+    }
+}
+@media screen and (max-width: 1100px) {
+    .chat-pane{
+        display:none !important;
+     }
+     
+}
+
 .nav-spec {
 	width: 35%;
 	position: relative;
 	display: inline-block;
 	float: left;
+	margin-bottom: 5px;
 }
 
 #searchbar-spec {
@@ -44,16 +88,25 @@
 	color: #999;
 }
 
-.small-font1 {
+.msg-font {
 	font-size: 13px;
+	color: #999;
 }
 
-.small-font2 {
+.time-font {
 	font-size: 9px;
+	color: #999;
 }
 
 .div-height {
 	height: 70px;
+}
+.privacy{
+	color: #3b5998;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 20px;
 }
 
 
@@ -66,29 +119,9 @@
 	background-color: #3b5998;
 }
 
-.mTop5 {
-	margin-top: 5px;
-}
 
-.mBottom5 {
-	margin-bottom: 5px;
-}
 
-.mLeft20 {
-	position: relative;
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 20px;
-	font-size: 13px
-}
 
-.mLeft220 {
-	position: relative;
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 220px;
-	font-size: 13px
-}
 
 .mLeft50 {
 	position: relative;
@@ -131,6 +164,7 @@
 	vertical-align: middle;
 	margin-left: 10px;
 	font-size: 20px;
+	margin-top: 5px;
 }
 
 .others {
@@ -144,10 +178,11 @@
 
 .icon-style {
 	color: #273d6d;
+	
 }
 
 .icon-style:HOVER {
-	color: #243251;
+	color: #243251;<<<<<<< HEAD
 }
 
 .icon-style:ACTIVE {
@@ -177,8 +212,8 @@
 	padding-left: 0;
 }
 
-#icon-active:AFTER {
-	background-color: white;
+#icon-active:FOCUS  {
+	color: white;
 }
 
 .messagemenu {
@@ -192,17 +227,18 @@
 
 .border-bottom {
 	position: relative;
-	margin-top: 5px;
-	margin-bottom: 5px;
 	border-bottom: 1px solid #ccc;
 	width: 100%;
 	padding: 0px;
 	height: 0px;
 }
+.border-bottom:HOVER {
+	background-color: #edf0f5;
+}
 
 .list-element-left {
 	position: relative;
-	margin-left: 5px;
+	padding-left: 5px;
 }
 
 .list-element-right {
@@ -252,7 +288,7 @@
 }
 
 .cover-outer-div {
-	overflow: hidden;
+	
 	margin-top: 36px;
 	cursor: pointer;
 	padding: 0px;
@@ -267,11 +303,6 @@
 	display: inline-block;
 }
 
-#cover-pic-button-div>ul>.coverpic-dropdown {
-	z-index: 3500;
-	position: relative;
-
-}
 
 #cover-pic-button-div  .btn {
 	line-height: 1.2;
@@ -294,15 +325,15 @@
 	width: 80px;
 	float: right;
 	padding-right: 10px;
-	padding-top: 4px;
 	
 }
 
 .camera-icon-div{
   position:absolute;
-  height:40px;
+  height:30px;
   width:200px;
   margin-top:40px;
+  margin-left: 20px;
 
 }
 
@@ -353,7 +384,7 @@
 .camera-icon-div:hover  #camera-icon{
 	transform:scale(0.8);
 }
-
+<<<<<<< HEAD
 
 
 .div-style-template {
@@ -456,7 +487,7 @@
 	position:absolute;
 
 	display: inline-block;
-	width: auto;
+	width: auto;<<<<<<< HEAD
 	margin-top: -40px;
 	color: #fff;
 }
@@ -546,11 +577,16 @@
 	border-radius: 3px;
 }
 
-#timeline-tab-color {
+#timeline-tab{
 	color: #373E4D;
 	border-left-width: 1px;
 	border-left-style: solid;
 	border-left-color: #E9EAED;
+	cursor: default;
+}
+
+#timeline-tab:HOVER{
+	background-color: transparent;
 }
 
 #timeline-tab-triangle {
@@ -630,13 +666,31 @@
 	margin-left: 0px;
 	margin-right: 0px;
 }
-
+.panel.status-panel ul{
+	background-color: #F6F7F8;
+	cursor:default;
+	
+}
+.panel.status-panel ul .active{
+	color:#000;
+	cursor:default;
+}
 .expand {
-	height: 30px;
-	width: 100%;
+	height: auto;
+	max-width: 100%;
+	min-width: 100%;
+	min-height:50px;
 	margin-top: 5px;
 	border: none;
 	outline: none;
+
+}
+#status-bottom-bar{
+	display:none;
+}
+#status-bottom-bar > a:hover{
+	background-color: #fff;
+	
 }
 
 .btn.btn-primary.post, .btn.frnds {
@@ -689,18 +743,15 @@
 
 .chat-pane {
 	padding: 0px;
-	padding-top: 5px;
-	display: inline-block;
-	float: right;
-
+	padding-top: 44px;
+	display: block;
+	z-index:0;
 	position:fixed;
-	
-	border: 1px solid #F6F7F8;
-	margin-top:3.5%;
+	max-width:194px;
+	border: 1px solid #dfe4ee;
 	height:100%;
-	
-	
-
+	overflow: hidden;
+	right: 0em;
 }
 
 .chat-image {
@@ -747,7 +798,7 @@
 }
 
 #chat-pane-games {
-	border-bottom: 1px solid #E9EAED;
+	border-bottom: 1px solid #dfe4ee;
 	margin-bottom: 5px;
 	height: 26%;
 }
@@ -763,7 +814,8 @@
 	height: 50px;
 	border-radius: 7px;
 	margin-bottom: 10px;
-	margin-left: 10px
+	margin-left: 10px;
+	cursor: pointer;
 }
 
 .chat-div {
@@ -775,21 +827,24 @@
 }
 
 #chat-user{
-	height: 63.7%;	
-
+ 	 
+	cursor:pointer;
 	border: 1px solid #E9EAED;
 	padding-top: 10px;
 }
 
 
-.coverpic-dropdown > li > a:hover, .post-header div.dropdown li > a:hover{/* for the list in dropdown hover color */
-	background-color:#003399;
+#coverpic-dropdown > li > a:hover, .post-header div.dropdown li > a:hover{/* for the list in dropdown hover color */
+	background-color:#3b5998;
 	color: #fff;
 }
-.coverpic-dropdown{
-padding:5px;
-
+#coverpic-dropdown{
+	padding:5px;
+	position:absolute;
+	z-index:5000;
 }
+
+
 .friends-pic-panel{
 	cursor: pointer;
 }
@@ -807,7 +862,7 @@ padding:5px;
 	opacity: 1;
 }
 
-.frnds-panel-heading a {
+.frnds-panel- ing a {
 	font-size: 12px;
 	color: #909090;
 }
@@ -857,7 +912,7 @@ padding:5px;
     height:20px;
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.7)) repeat scroll 0% 0% transparent;
     padding-left:5px;
-   
+   <<<<<<< HEAD
 }
 .col-lg-5{
 	margin-left:0px;
@@ -867,7 +922,14 @@ padding:5px;
 #chat-search{
 
 	height: 25px;
-	margin-top: -8px
+	margin-top:0;
+	position: absolute;
+	bottom:.5em;
+	right: 0em;
+
+}
+#chat-search-form{
+	padding: 0px;
 }
 
 #chat-form {
@@ -877,7 +939,7 @@ padding:5px;
 
 
 .scroll-menu{
-	height:235px;
+	height: 68%;	
 	overflow-x:hidden;
 	overflow-y:hidden;
 	
@@ -889,6 +951,7 @@ padding:5px;
 }
 
 .scroll-menu:HOVER {
+	height: 68%;	
 	overflow-y: scroll;
 }
 
@@ -977,30 +1040,30 @@ padding:5px;
 
 	height: 31px;
 	margin-left: -3px;
-	top: 4px;
+	top: 1px;
 	width: 33px;
 	position: relative;
 	display: inline-block
 }
 
 .camera-icon {
-	background-position: 0px -5px;
+	background-position: -4px -5px;
 }
 
 .user-icon {
-	background-position: 0px -404px;
+	background-position: -2px -404px;
 }
 
 .smiley-icon {
-	background-position: 0px -244px;
+	background-position: -2px -244px;
 }
 
 .clk-icon{
-	background-position: 0px -85px;
+	background-position: -2px -85px;
 }
 .location-icon{
 
-	background-position: 0px -166px;
+	background-position: -2px -166px;
 }
 
 .status-bottombar {
@@ -1067,6 +1130,7 @@ padding:5px;
 .post-cmnt span input{
 	border:none;
 	width:360px;
+	vertical-align: 5px;
 	
 }
 .post-cmnt span a:last-child{
@@ -1131,7 +1195,7 @@ padding:5px;
 	margin-bottom: 5px;
 	
 }
-.txts a {
+.copyright-texts a {
     color: #9197A3;
     font-size: 12px;
 }
@@ -1140,19 +1204,77 @@ padding:5px;
     color: #9197A3;
 }
 
-.txts {
+.copyright-texts {
     margin-left: 5px;
 }
 
-#no {
+#copyright-icon {
     text-decoration: none;
 }
 
-.txts a:HOVER {
+.copyright-texts a:HOVER {
     color: #9197A3;
 }
 
 #timeline-structure {
 	margin-left: 50px;
-
 }
+
+#button-search:hover{
+	background-color: white;
+	border-color: white;
+}
+#button-search{
+	background-color: white;
+	border-color: white;
+}
+
+.profile-button{
+	position: relative;
+	margin-left: 220px;
+	margin-top: 5px;
+	color: white;
+}
+.home-button{
+	color: white;
+	margin-top: 5px;
+}
+.dropdown-header{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	position: relative;
+	padding-left: 5px;
+}
+.dropdown-header-msg{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.add-friend{
+	position: relative;
+	margin-right: 5px;
+	margin-top: 16px;
+}
+
+
+ div.dropdown ul li .posthover:HOVER{
+    background-color: #3b5998;
+  
+    
+}
+.ok-btn-left{
+	margin-left:-18px
+}
+.posthover{
+	 border-top:1px solid #fff;
+}
+.status-dropdown-header{
+	background-color: #fff;
+}
+span.post-text{
+	color: #9197A3;
+	font:10px;
+	margin-left:10px;
+}
+
+
+
