@@ -1236,6 +1236,9 @@
   
     
 }
+.ok-btn-left{
+	margin-left:-18px
+}
 .posthover{
 	 border-top:1px solid #fff;
 }
@@ -1247,7 +1250,5 @@ span.post-text{
 	font:10px;
 	margin-left:10px;
 }
-.ok-btn-left{
-	margin-left:-18px
-}
+
 
